@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_translate_441">el grifo</string>
+    <string name="word_translate_442">la cortina</string>
+    <string name="word_translate_443">el tubo</string>
+    <string name="word_translate_444">el espejo</string>
+    <string name="word_translate_445">el horno</string>
+    <string name="word_translate_446">para hornear</string>
+    <string name="word_translate_447">las galletas</string>
+    <string name="word_translate_448">el pastel</string>
+    <string name="word_translate_449">La cocina</string>
+    <string name="word_translate_450">el microondas</string>
+    <string name="word_translate_451">la estufa</string>
+    <string name="word_translate_452">el embutido</string>
+    <string name="word_translate_453">la salchicha</string>
+    <string name="word_translate_454">la papilla</string>
+    <string name="word_translate_455">el maiz</string>
+    <string name="word_translate_456">el pepino</string>
+    <string name="word_translate_457">la col</string>
+    <string name="word_translate_458">el fruto</string>
+    <string name="word_translate_459">los vegetales</string>
+    <string name="word_translate_460">la cebolla</string>
+    <!-- END -->
+
+    <!-- PHRASE -->
+    <string name="phrase_translate_441">El agua fluye del grifo.</string>
+    <string name="phrase_translate_442">Cerró las cortinas.</string>
+    <string name="phrase_translate_443">La tubería está alquitranada.</string>
+    <string name="phrase_translate_444">Me miro en el espejo y me veo.</string>
+    <string name="phrase_translate_445">Ella pone el pastel en el horno.</string>
+    <string name="phrase_translate_446">¿Qué estás horneando?</string>
+    <string name="phrase_translate_447">Me gustan las galletas.</string>
+    <string name="phrase_translate_448">Comemos pastel.</string>
+    <string name="phrase_translate_449">Ella trabaja en la cocina.</string>
+    <string name="phrase_translate_450">Pongo la comida en el microondas.</string>
+    <string name="phrase_translate_451">La olla está en la estufa.</string>
+    <string name="phrase_translate_452">¿Quieres una salchicha?</string>
+    <string name="phrase_translate_453">Al gato le gustan mucho las salchichas pequeñas.</string>
+    <string name="phrase_translate_454">Como papilla por la mañana.</string>
+    <string name="phrase_translate_455">El maíz crece en el campo.</string>
+    <string name="phrase_translate_456">Ensalada de pepino.</string>
+    <string name="phrase_translate_457">El repollo es bueno para la salud.</string>
+    <string name="phrase_translate_458">Ella come un montón de fruta.</string>
+    <string name="phrase_translate_459">Comer verduras es saludable.</string>
+    <string name="phrase_translate_460">Olvidé comprar cebollas.</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_441">el armario</string>
+    <string name="word_LT_442">el estante</string>
+    <string name="word_LT_443">el horno</string>
+    <string name="word_LT_444">la flor</string>
+    <string name="word_LT_445">la sopa</string>
+    <string name="word_LT_446">dar</string>
+    <string name="word_LT_447">La servilleta</string>
+    <string name="word_LT_448">la harina</string>
+    <string name="word_LT_449">La cocina</string>
+    <string name="word_LT_450">la tienda</string>
+    <string name="word_LT_451">la cuchara</string>
+    <string name="word_LT_452">champiñón</string>
+    <string name="word_LT_453">el restaurante</string>
+    <string name="word_LT_454">el helado</string>
+    <string name="word_LT_455">el maiz</string>
+    <string name="word_LT_456">el pepino</string>
+    <string name="word_LT_457">la cena</string>
+    <string name="word_LT_458">los alimentos</string>
+    <string name="word_LT_459">el hongo</string>
+    <string name="word_LT_460">la cuchara</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_441">El camarero</string>
+    <string name="word_RT_442">la botella</string>
+    <string name="word_RT_443">el grifo</string>
+    <string name="word_RT_444">el gato</string>
+    <string name="word_RT_445">La tetera</string>
+    <string name="word_RT_446">limpiar</string>
+    <string name="word_RT_447">las galletas</string>
+    <string name="word_RT_448">la salchicha</string>
+    <string name="word_RT_449">Los fideos</string>
+    <string name="word_RT_450">el microondas</string>
+    <string name="word_RT_451">El tenedor</string>
+    <string name="word_RT_452">botella</string>
+    <string name="word_RT_453">el sótano</string>
+    <string name="word_RT_454">la papilla</string>
+    <string name="word_RT_455">La crema</string>
+    <string name="word_RT_456">la salchicha</string>
+    <string name="word_RT_457">la col</string>
+    <string name="word_RT_458">La servilleta</string>
+    <string name="word_RT_459">la botella</string>
+    <string name="word_RT_460">El tenedor</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_441">el grifo</string>
+    <string name="word_LB_442">la cortina</string>
+    <string name="word_LB_443">el fregadero</string>
+    <string name="word_LB_444">el jardín</string>
+    <string name="word_LB_445">el horno</string>
+    <string name="word_LB_446">freir</string>
+    <string name="word_LB_447">la cuchara</string>
+    <string name="word_LB_448">el pastel</string>
+    <string name="word_LB_449">la bebida</string>
+    <string name="word_LB_450">la sopa</string>
+    <string name="word_LB_451">la estufa</string>
+    <string name="word_LB_452">el embutido</string>
+    <string name="word_LB_453">la papilla</string>
+    <string name="word_LB_454">la flor</string>
+    <string name="word_LB_455">la zanahoria</string>
+    <string name="word_LB_456">El tenedor</string>
+    <string name="word_LB_457">los frijoles</string>
+    <string name="word_LB_458">el cuchillo</string>
+    <string name="word_LB_459">el avión</string>
+    <string name="word_LB_460">la tienda</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_441">el fregadero</string>
+    <string name="word_RB_442">la harina</string>
+    <string name="word_RB_443">el tubo</string>
+    <string name="word_RB_444">el espejo</string>
+    <string name="word_RB_445">la nevera</string>
+    <string name="word_RB_446">para hornear</string>
+    <string name="word_RB_447">la harina</string>
+    <string name="word_RB_448">las galletas</string>
+    <string name="word_RB_449">el té</string>
+    <string name="word_RB_450">el pan</string>
+    <string name="word_RB_451">la cebolla</string>
+    <string name="word_RB_452">verduras</string>
+    <string name="word_RB_453">la salchicha</string>
+    <string name="word_RB_454">La tetera</string>
+    <string name="word_RB_455">la gente</string>
+    <string name="word_RB_456">el plato</string>
+    <string name="word_RB_457">la dieta</string>
+    <string name="word_RB_458">el fruto</string>
+    <string name="word_RB_459">los vegetales</string>
+    <string name="word_RB_460">la cebolla</string>
+    <!-- END -->
+</resources>

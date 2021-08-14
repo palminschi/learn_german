@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    translatable="false">
+
+    <string name="support_email">devpalminschi@gmail.com</string>
+    <string name="AD_APP_ID">ca-app-pub-6012847014470005~2571406338</string>
+    <string name="AD_UNIT_INTERSTITIAL_ID">ca-app-pub-6012847014470005/1305398454</string>
+    <string name="AD_UNIT_BANNER_ID">ca-app-pub-6012847014470005/7763829743</string>
+    <string name="base64Key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlf6oKM3npouNy3+TeL93r0u0LjagJBEc1LoBZfQTqnPcMdZRwxgHusfsFgs7lVdluRBKh6QYixtLrnp3zX5rJ+bQt62GNXsRDoraRvPBnwDKMGc7gszG/dvTpj+T57SJhzSEh1xGVMcqOCNjM5/jwHVAc9DeZ6hcdzb7VWAghvenYxgHNs3KKuH2sfXvAYKFii3UHMUE+yUAugegPoVfN0gO/9iyrH+cTpPPjbOIuFnj69RBS+9yt8PBQ5E2O+XV6HeVXvPEyLzGNbMEVD3xbPj1fjJs/4qCmPXit6zPtZREHRpvjJWPiZXif2g1lAdwkiyx/TUdDvSUHhoZxoJYPQIDAQAB</string>
+    <string name="privacy_policy">https://german-in-30-days-0.flycricket.io/privacy.html</string>
+    <!-- Preferences -->
+    <string name="save">Save</string>
+    <string name="show_ads">ShowAds</string>
+    <string name="completedLevels">completedLevels</string>
+    <string name="wordsLearned">wordsLearned</string>
+    <string name="game_01_lastWord">game_01_lastWord</string>
+    <string name="game_01_bestScore">game_01_bestScore</string>
+    <string name="game_01_livesLeft">game_01_livesLeft</string>
+    <string name="game_01_winOrLose">game_01_winOrLose</string>
+    <string name="game_02_bestScore">game_02_bestScore</string>
+    <string name="game_02_actualWord">game_02_actualWord</string>
+    <string name="game_03_bestScore">game_03_bestScore</string>
+    <string name="game_03_actualWord">game_03_actualWord</string>
+    <string name="ads_game_counter">ads_game_counter</string>
+    <!-- Preferences END -->
+
+    <!-- Promo codes -->
+    <string name="reset_lastWord">rlastword</string>
+    <string name="promo_put">Radmin</string>
+    <string name="promo_disable">Rdisable</string>
+    <string name="resetlvl">resetlvl</string>
+    <string name="set01lvl">set01lvl</string>
+    <string name="set02lvl">set02lvl</string>
+    <string name="set03lvl">set03lvl</string>
+    <string name="set04lvl">set04lvl</string>
+    <string name="set05lvl">set05lvl</string>
+    <string name="set06lvl">set06lvl</string>
+    <string name="set07lvl">set07lvl</string>
+    <string name="set08lvl">set08lvl</string>
+    <string name="set09lvl">set09lvl</string>
+    <string name="set10lvl">set10lvl</string>
+    <string name="set11lvl">set11lvl</string>
+    <string name="set12lvl">set12lvl</string>
+    <string name="set13lvl">set13lvl</string>
+    <string name="set14lvl">set14lvl</string>
+    <string name="set15lvl">set15lvl</string>
+    <string name="set16lvl">set16lvl</string>
+    <string name="set17lvl">set17lvl</string>
+    <string name="set18lvl">set18lvl</string>
+    <string name="set19lvl">set19lvl</string>
+    <string name="set20lvl">set20lvl</string>
+    <string name="set21lvl">set21lvl</string>
+    <string name="set22lvl">set22lvl</string>
+    <string name="set23lvl">set23lvl</string>
+    <string name="set24lvl">set24lvl</string>
+    <string name="set25lvl">set25lvl</string>
+    <string name="set26lvl">set26lvl</string>
+    <string name="set27lvl">set27lvl</string>
+    <string name="set28lvl">set28lvl</string>
+    <string name="set29lvl">set29lvl</string>
+    <string name="set30lvl">set30lvl</string>
+    <!-- Promo codes END -->
+</resources>

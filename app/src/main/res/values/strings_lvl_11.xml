@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_title_201" translatable="false">die Wanderung</string>
+    <string name="word_title_202" translatable="false">spazieren</string>
+    <string name="word_title_203" translatable="false">das Joggen</string>
+    <string name="word_title_204" translatable="false">der Wald</string>
+    <string name="word_title_205" translatable="false">der Park</string>
+    <string name="word_title_206" translatable="false">die Rollschuhe</string>
+    <string name="word_title_207" translatable="false">das Skateboard</string>
+    <string name="word_title_208" translatable="false">die Schlittschuhe</string>
+    <string name="word_title_209" translatable="false">die Freizeit</string>
+    <string name="word_title_210" translatable="false">das Wochenende</string>
+    <string name="word_title_211" translatable="false">fliegen</string>
+    <string name="word_title_212" translatable="false">die Ferien</string>
+    <string name="word_title_213" translatable="false">die Weihnacht</string>
+    <string name="word_title_214" translatable="false">besuchen</string>
+    <string name="word_title_215" translatable="false">buchen</string>
+    <string name="word_title_216" translatable="false">das Hotel</string>
+    <string name="word_title_217" translatable="false">bleiben</string>
+    <string name="word_title_218" translatable="false">der Koffer</string>
+    <string name="word_title_219" translatable="false">das Ausland</string>
+    <string name="word_title_220" translatable="false">der Zoll</string>
+    <!-- END -->
+    <string name="word_translate_201">hike</string>
+    <string name="word_translate_202">to walk</string>
+    <string name="word_translate_203">jogging</string>
+    <string name="word_translate_204">forest</string>
+    <string name="word_translate_205">park</string>
+    <string name="word_translate_206">roller skates</string>
+    <string name="word_translate_207">skateboard</string>
+    <string name="word_translate_208">skate</string>
+    <string name="word_translate_209">leisure</string>
+    <string name="word_translate_210">weekend</string>
+    <string name="word_translate_211">to fly</string>
+    <string name="word_translate_212">vacation</string>
+    <string name="word_translate_213">Christmas</string>
+    <string name="word_translate_214">to visit</string>
+    <string name="word_translate_215">to book</string>
+    <string name="word_translate_216">hotel</string>
+    <string name="word_translate_217">to stay</string>
+    <string name="word_translate_218">suitcase</string>
+    <string name="word_translate_219">abroad</string>
+    <string name="word_translate_220">customs</string>
+
+    <!-- PHRASE + TRANSLATE -->
+    <string name="phrase_201" translatable="false">Ich mache eine Wanderung.</string>
+    <string name="phrase_translate_201">I\'m going for a hike.</string>
+
+    <string name="phrase_202" translatable="false">Ich gehe gerne spazieren.</string>
+    <string name="phrase_translate_202">I love walking.</string>
+
+    <string name="phrase_203" translatable="false">Gehst du joggen?</string>
+    <string name="phrase_translate_203">Do you go jogging?</string>
+
+    <string name="phrase_204" translatable="false">Ich laufe durch den Wald.</string>
+    <string name="phrase_translate_204">I\'m going through the forest.</string>
+
+    <string name="phrase_205" translatable="false">Schöner Park</string>
+    <string name="phrase_translate_205">Beautiful park.</string>
+
+    <string name="phrase_206" translatable="false">Mein Sohn hat Rollschuhe.</string>
+    <string name="phrase_translate_206">My son has roller skates.</string>
+
+    <string name="phrase_207" translatable="false">Ich fahre mit dem Skateboard.</string>
+    <string name="phrase_translate_207">I go on a skateboard.</string>
+
+    <string name="phrase_208" translatable="false">Schlittschuhlaufen</string>
+    <string name="phrase_translate_208">Ice skating</string>
+
+    <string name="phrase_209" translatable="false">Jetzt habe ich Freizeit.</string>
+    <string name="phrase_translate_209">Now I have leisure time.</string>
+
+    <string name="phrase_210" translatable="false">Wohin gehst du an den Wochenenden?</string>
+    <string name="phrase_translate_210">Where do you go on the weekends?</string>
+
+    <string name="phrase_211" translatable="false">Ich fliege zum Meer.</string>
+    <string name="phrase_translate_211">I\'m flying to the sea.</string>
+
+    <string name="phrase_212" translatable="false">Das Kind ist in den Ferien.</string>
+    <string name="phrase_translate_212">The kid is on vacation.</string>
+
+    <string name="phrase_213" translatable="false">Bald ist Weihnachten.</string>
+    <string name="phrase_translate_213">Soon it will be Christmas!</string>
+
+    <string name="phrase_214" translatable="false">Wie viele Länder hast du besucht?</string>
+    <string name="phrase_translate_214">To how many countries have you been?</string>
+
+    <string name="phrase_215" translatable="false">Ich habe ein Hotel gebucht.</string>
+    <string name="phrase_translate_215">I have booked a hotel.</string>
+
+    <string name="phrase_216" translatable="false">Ich wohne in einem Hotel</string>
+    <string name="phrase_translate_216">I live in a hotel.</string>
+
+    <string name="phrase_217" translatable="false">Ich bleibe zu Hause.</string>
+    <string name="phrase_translate_217">I\'m staying at home.</string>
+
+    <string name="phrase_218" translatable="false">Wo ist mein Koffer?</string>
+    <string name="phrase_translate_218">Where is my suit case?</string>
+
+    <string name="phrase_219" translatable="false">Sie lebt im Ausland.</string>
+    <string name="phrase_translate_219">She lives abroad.</string>
+
+    <string name="phrase_220" translatable="false">Wir müssen durch den Zoll gehen.</string>
+    <string name="phrase_translate_220">We have to get through the customs.</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_201">flower</string>
+    <string name="word_LT_202">to walk</string>
+    <string name="word_LT_203">plane</string>
+    <string name="word_LT_204">sea</string>
+    <string name="word_LT_205">park</string>
+    <string name="word_LT_206">island</string>
+    <string name="word_LT_207">skateboard</string>
+    <string name="word_LT_208">toy</string>
+    <string name="word_LT_209">plane</string>
+    <string name="word_LT_210">month</string>
+    <string name="word_LT_211">to fly</string>
+    <string name="word_LT_212">tree</string>
+    <string name="word_LT_213">night</string>
+    <string name="word_LT_214">to fly</string>
+    <string name="word_LT_215">to book</string>
+    <string name="word_LT_216">flower</string>
+    <string name="word_LT_217">to take</string>
+    <string name="word_LT_218">plane</string>
+    <string name="word_LT_219">abroad</string>
+    <string name="word_LT_220">tree</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_201">hike</string>
+    <string name="word_RT_202">to run</string>
+    <string name="word_RT_203">butterfly</string>
+    <string name="word_RT_204">mountain</string>
+    <string name="word_RT_205">train</string>
+    <string name="word_RT_206">roller skates</string>
+    <string name="word_RT_207">guitar</string>
+    <string name="word_RT_208">sweet</string>
+    <string name="word_RT_209">tree</string>
+    <string name="word_RT_210">week</string>
+    <string name="word_RT_211">to sing</string>
+    <string name="word_RT_212">vacation</string>
+    <string name="word_RT_213">butterfly</string>
+    <string name="word_RT_214">to find</string>
+    <string name="word_RT_215">to run</string>
+    <string name="word_RT_216">hotel</string>
+    <string name="word_RT_217">to play</string>
+    <string name="word_RT_218">leisure</string>
+    <string name="word_RT_219">Christmas</string>
+    <string name="word_RT_220">customs</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_201">mountain</string>
+    <string name="word_LB_202">to learn</string>
+    <string name="word_LB_203">jogging</string>
+    <string name="word_LB_204">tree</string>
+    <string name="word_LB_205">house</string>
+    <string name="word_LB_206">tree</string>
+    <string name="word_LB_207">cake</string>
+    <string name="word_LB_208">guitar</string>
+    <string name="word_LB_209">leisure</string>
+    <string name="word_LB_210">end</string>
+    <string name="word_LB_211">to jump</string>
+    <string name="word_LB_212">flower</string>
+    <string name="word_LB_213">Christmas</string>
+    <string name="word_LB_214">to search</string>
+    <string name="word_LB_215">to find</string>
+    <string name="word_LB_216">plane</string>
+    <string name="word_LB_217">to stay</string>
+    <string name="word_LB_218">mountain</string>
+    <string name="word_LB_219">butterfly</string>
+    <string name="word_LB_220">flower</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_201">plane</string>
+    <string name="word_RB_202">to give</string>
+    <string name="word_RB_203">flower</string>
+    <string name="word_RB_204">forest</string>
+    <string name="word_RB_205">music</string>
+    <string name="word_RB_206">game</string>
+    <string name="word_RB_207">joy</string>
+    <string name="word_RB_208">skate</string>
+    <string name="word_RB_209">time</string>
+    <string name="word_RB_210">weekend</string>
+    <string name="word_RB_211">to work</string>
+    <string name="word_RB_212">leisure</string>
+    <string name="word_RB_213">winter</string>
+    <string name="word_RB_214">to visit</string>
+    <string name="word_RB_215">to give</string>
+    <string name="word_RB_216">restaurant</string>
+    <string name="word_RB_217">to run</string>
+    <string name="word_RB_218">suitcase</string>
+    <string name="word_RB_219">leisure</string>
+    <string name="word_RB_220">plane</string>
+    <!-- END -->
+</resources>

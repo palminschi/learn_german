@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_translate_501">la entrega</string>
+    <string name="word_translate_502">entregar</string>
+    <string name="word_translate_503">el paquete</string>
+    <string name="word_translate_504">espalda</string>
+    <string name="word_translate_505">mirar</string>
+    <string name="word_translate_506">el actor</string>
+    <string name="word_translate_507">el teatro</string>
+    <string name="word_translate_508">el circo</string>
+    <string name="word_translate_509">la película</string>
+    <string name="word_translate_510">filmar</string>
+    <string name="word_translate_511">las series</string>
+    <string name="word_translate_512">el director</string>
+    <string name="word_translate_513">el logro</string>
+    <string name="word_translate_514">anotar</string>
+    <string name="word_translate_515">el deber</string>
+    <string name="word_translate_516">visitar</string>
+    <string name="word_translate_517">el orden</string>
+    <string name="word_translate_518">limpio</string>
+    <string name="word_translate_519">el par</string>
+    <string name="word_translate_520">el paso</string>
+
+    <!-- PHRASE  -->
+    <string name="phrase_translate_501">Ha llegado tu entrega.</string>
+    <string name="phrase_translate_502">Entrega correo.</string>
+    <string name="phrase_translate_503">Tengo un paquete.</string>
+    <string name="phrase_translate_504">Voy a volver a casa.</string>
+    <string name="phrase_translate_505">Te estoy mirando</string>
+    <string name="phrase_translate_506">Quiero ser un actor.</string>
+    <string name="phrase_translate_507">El sábado voy al teatro.</string>
+    <string name="phrase_translate_508">El circo fue divertido.</string>
+    <string name="phrase_translate_509">Película muy interesante.</string>
+    <string name="phrase_translate_510">Estoy filmando un video.</string>
+    <string name="phrase_translate_511">Esta serie tiene muchos episodios.</string>
+    <string name="phrase_translate_512">Su profesión de director</string>
+    <string name="phrase_translate_513">Este es un gran logro.</string>
+    <string name="phrase_translate_514">Lo anotó él mismo.</string>
+    <string name="phrase_translate_515">Este es mi deber.</string>
+    <string name="phrase_translate_516">Visitamos el museo.</string>
+    <string name="phrase_translate_517">Necesito poner mi casa en orden.</string>
+    <string name="phrase_translate_518">Yo limpio el apartamento.</string>
+    <string name="phrase_translate_519">Unos días más tarde</string>
+    <string name="phrase_translate_520">Da un paso atrás.</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_501">la lluvia</string>
+    <string name="word_LT_502">entregar</string>
+    <string name="word_LT_503">el equipo</string>
+    <string name="word_LT_504">nada</string>
+    <string name="word_LT_505">para poner en</string>
+    <string name="word_LT_506">el oficial de policía</string>
+    <string name="word_LT_507">La aldea</string>
+    <string name="word_LT_508">la cartera</string>
+    <string name="word_LT_509">La aldea</string>
+    <string name="word_LT_510">ordenar</string>
+    <string name="word_LT_511">el árbol</string>
+    <string name="word_LT_512">el oficial de policía</string>
+    <string name="word_LT_513">la experiencia</string>
+    <string name="word_LT_514">anotar</string>
+    <string name="word_LT_515">el seguro</string>
+    <string name="word_LT_516">tirar</string>
+    <string name="word_LT_517">el orden</string>
+    <string name="word_LT_518">limpio</string>
+    <string name="word_LT_519">el pensar</string>
+    <string name="word_LT_520">el paso</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_501">las normas</string>
+    <string name="word_RT_502">para poner en</string>
+    <string name="word_RT_503">la entrega</string>
+    <string name="word_RT_504">espalda</string>
+    <string name="word_RT_505">reír</string>
+    <string name="word_RT_506">el productor</string>
+    <string name="word_RT_507">el teatro</string>
+    <string name="word_RT_508">el circo</string>
+    <string name="word_RT_509">el dormitorio</string>
+    <string name="word_RT_510">filmar</string>
+    <string name="word_RT_511">el animal</string>
+    <string name="word_RT_512">el director</string>
+    <string name="word_RT_513">la memoria</string>
+    <string name="word_RT_514">buscar</string>
+    <string name="word_RT_515">la factura</string>
+    <string name="word_RT_516">coleccionar</string>
+    <string name="word_RT_517">el beneficio</string>
+    <string name="word_RT_518">silencio</string>
+    <string name="word_RT_519">el bono</string>
+    <string name="word_RT_520">la transferencia</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_501">la entrega</string>
+    <string name="word_LB_502">a desnudarse</string>
+    <string name="word_LB_503">la tapa</string>
+    <string name="word_LB_504">mucho</string>
+    <string name="word_LB_505">mirar</string>
+    <string name="word_LB_506">el actor</string>
+    <string name="word_LB_507">la montaña</string>
+    <string name="word_LB_508">el armario</string>
+    <string name="word_LB_509">la película</string>
+    <string name="word_LB_510">vender</string>
+    <string name="word_LB_511">las vacaciones</string>
+    <string name="word_LB_512">el maestro</string>
+    <string name="word_LB_513">las memorias</string>
+    <string name="word_LB_514">saber</string>
+    <string name="word_LB_515">el deber</string>
+    <string name="word_LB_516">visitar</string>
+    <string name="word_LB_517">el alma</string>
+    <string name="word_LB_518">último</string>
+    <string name="word_LB_519">el par</string>
+    <string name="word_LB_520">el caso</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_501">el tiempo</string>
+    <string name="word_RB_502">preguntar</string>
+    <string name="word_RB_503">el paquete</string>
+    <string name="word_RB_504">suficiente</string>
+    <string name="word_RB_505">descansar</string>
+    <string name="word_RB_506">el constructor</string>
+    <string name="word_RB_507">la ventana</string>
+    <string name="word_RB_508">la Iglesia</string>
+    <string name="word_RB_509">el árbol</string>
+    <string name="word_RB_510">pagar</string>
+    <string name="word_RB_511">las series</string>
+    <string name="word_RB_512">el constructor</string>
+    <string name="word_RB_513">el logro</string>
+    <string name="word_RB_514">amar</string>
+    <string name="word_RB_515">la ventaja</string>
+    <string name="word_RB_516">saltar</string>
+    <string name="word_RB_517">el impuesto</string>
+    <string name="word_RB_518">roto</string>
+    <string name="word_RB_519">el alma</string>
+    <string name="word_RB_520">la pension</string>
+    <!-- END -->
+</resources>

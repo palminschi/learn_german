@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_title_221" translatable="false">der Pass</string>
+    <string name="word_title_222" translatable="false">das Ticket</string>
+    <string name="word_title_223" translatable="false">die Insel</string>
+    <string name="word_title_224" translatable="false">der Abflug</string>
+    <string name="word_title_225" translatable="false">die Ankunft</string>
+    <string name="word_title_226" translatable="false">landen</string>
+    <string name="word_title_227" translatable="false">das Gepäck</string>
+    <string name="word_title_228" translatable="false">der Flugbegleiter</string>
+    <string name="word_title_229" translatable="false">bezahlen</string>
+    <string name="word_title_230" translatable="false">der Flug</string>
+    <string name="word_title_231" translatable="false">der Ausweis</string>
+    <string name="word_title_232" translatable="false">die Unterlage</string>
+    <string name="word_title_233" translatable="false">der Ozean</string>
+    <string name="word_title_234" translatable="false">der Eisberg</string>
+    <string name="word_title_235" translatable="false">das Schiff</string>
+    <string name="word_title_236" translatable="false">das Boot</string>
+    <string name="word_title_237" translatable="false">der Wal</string>
+    <string name="word_title_238" translatable="false">der Hai</string>
+    <string name="word_title_239" translatable="false">der Sand</string>
+    <string name="word_title_240" translatable="false">der See</string>
+
+    <string name="word_translate_221">passport</string>
+    <string name="word_translate_222">ticket</string>
+    <string name="word_translate_223">island</string>
+    <string name="word_translate_224">departure</string>
+    <string name="word_translate_225">arrival</string>
+    <string name="word_translate_226">to land</string>
+    <string name="word_translate_227">baggage</string>
+    <string name="word_translate_228">steward</string>
+    <string name="word_translate_229">to pay</string>
+    <string name="word_translate_230">flight</string>
+    <string name="word_translate_231">identity card</string>
+    <string name="word_translate_232">document</string>
+    <string name="word_translate_233">ocean</string>
+    <string name="word_translate_234">iceberg</string>
+    <string name="word_translate_235">ship</string>
+    <string name="word_translate_236">boat</string>
+    <string name="word_translate_237">whale</string>
+    <string name="word_translate_238">shark</string>
+    <string name="word_translate_239">sand</string>
+    <string name="word_translate_240">lake</string>
+    <!-- END -->
+
+    <!-- PHRASE + TRANSLATE -->
+    <string name="phrase_221" translatable="false">Ich habe meinen Pass verloren.</string>
+    <string name="phrase_translate_221">I have lost my passport.</string>
+
+    <string name="phrase_222" translatable="false">Ich habe zwei Tickets gekauft.</string>
+    <string name="phrase_translate_222">I have bought two tickets.</string>
+
+    <string name="phrase_223" translatable="false">Wir sind auf einer Insel</string>
+    <string name="phrase_translate_223">We are on an island.</string>
+
+    <string name="phrase_224" translatable="false">Wann ist der Abflug?</string>
+    <string name="phrase_translate_224">When is the departure?</string>
+
+    <string name="phrase_225" translatable="false">Die Ankunft ist um 13.00 Uhr.</string>
+    <string name="phrase_translate_225">The arrival is at 13 o\'clock.</string>
+
+    <string name="phrase_226" translatable="false">Das Flugzeug landet</string>
+    <string name="phrase_translate_226">The aircraft is landing.</string>
+
+    <string name="phrase_227" translatable="false">Ich habe kein Gepäck.</string>
+    <string name="phrase_translate_227">I do not have any baggage.</string>
+
+    <string name="phrase_228" translatable="false">Die Flugbegleiterin hat mir geholfen.</string>
+    <string name="phrase_translate_228">The sterwardess has helped me.</string>
+
+    <string name="phrase_229" translatable="false">Wie viel muss ich bezahlen?</string>
+    <string name="phrase_translate_229">How much do I have to pay?</string>
+
+    <string name="phrase_230" translatable="false">Wir sind schon im Flug.</string>
+    <string name="phrase_translate_230">We are already in flight.</string>
+
+    <string name="phrase_231" translatable="false">Ich kann meinen Ausweis nicht finden.</string>
+    <string name="phrase_translate_231">I can\'t find my ID.</string>
+
+    <string name="phrase_232" translatable="false">Ich habe alle Unterlagen genommen.</string>
+    <string name="phrase_translate_232">I took all documents.</string>
+
+    <string name="phrase_233" translatable="false">Der Ozean ist sehr groß.</string>
+    <string name="phrase_translate_233">The ocean is very big.</string>
+
+    <string name="phrase_234" translatable="false">Es gibt Eisberge im Ozean.</string>
+    <string name="phrase_translate_234">There are icebergs in the ocean.</string>
+
+    <string name="phrase_235" translatable="false">Wir sind auf einem Schiff.</string>
+    <string name="phrase_translate_235">We are on a ship.</string>
+
+    <string name="phrase_236" translatable="false">Ein Boot segelt ins Meer</string>
+    <string name="phrase_translate_236">A boat sails into the sea.</string>
+
+    <string name="phrase_237" translatable="false">Ich habe einen Wal gesehen.</string>
+    <string name="phrase_translate_237">I saw a whale.</string>
+
+    <string name="phrase_238" translatable="false">Haie sind sehr gefährlich.</string>
+    <string name="phrase_translate_238">Sharks are very dangerous.</string>
+
+    <string name="phrase_239" translatable="false">Es gibt viel Sand am Strand.</string>
+    <string name="phrase_translate_239">There is a lot of sand on the beach.</string>
+
+    <string name="phrase_240" translatable="false">Er fischt im See.</string>
+    <string name="phrase_translate_240">He fishes in the lake.</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_221">leisure</string>
+    <string name="word_LT_222">customs</string>
+    <string name="word_LT_223">island</string>
+    <string name="word_LT_224">exit</string>
+    <string name="word_LT_225">arrival</string>
+    <string name="word_LT_226">to fly</string>
+    <string name="word_LT_227">train</string>
+    <string name="word_LT_228">sea</string>
+    <string name="word_LT_229">to pay</string>
+    <string name="word_LT_230">way</string>
+    <string name="word_LT_231">hotel</string>
+    <string name="word_LT_232">tree</string>
+    <string name="word_LT_233">ocean</string>
+    <string name="word_LT_234">customs</string>
+    <string name="word_LT_235">restaurant</string>
+    <string name="word_LT_236">boat</string>
+    <string name="word_LT_237">train</string>
+    <string name="word_LT_238">sea</string>
+    <string name="word_LT_239">sand</string>
+    <string name="word_LT_240">island</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_221">passport</string>
+    <string name="word_RT_222">plane</string>
+    <string name="word_RT_223">bottle</string>
+    <string name="word_RT_224">customs</string>
+    <string name="word_RT_225">suitcase</string>
+    <string name="word_RT_226">to book</string>
+    <string name="word_RT_227">baggage</string>
+    <string name="word_RT_228">doctor</string>
+    <string name="word_RT_229">to jump</string>
+    <string name="word_RT_230">restaurant</string>
+    <string name="word_RT_231">identity card</string>
+    <string name="word_RT_232">flower</string>
+    <string name="word_RT_233">sea</string>
+    <string name="word_RT_234">iceberg</string>
+    <string name="word_RT_235">hotel</string>
+    <string name="word_RT_236">train</string>
+    <string name="word_RT_237">flower</string>
+    <string name="word_RT_238">plane</string>
+    <string name="word_RT_239">customs</string>
+    <string name="word_RT_240">lake</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_221">customs</string>
+    <string name="word_LB_222">tree</string>
+    <string name="word_LB_223">flower</string>
+    <string name="word_LB_224">departure</string>
+    <string name="word_LB_225">toy</string>
+    <string name="word_LB_226">to sing</string>
+    <string name="word_LB_227">holiday</string>
+    <string name="word_LB_228">steward</string>
+    <string name="word_LB_229">to work</string>
+    <string name="word_LB_230">flight</string>
+    <string name="word_LB_231">train</string>
+    <string name="word_LB_232">car</string>
+    <string name="word_LB_233">winter</string>
+    <string name="word_LB_234">holiday</string>
+    <string name="word_LB_235">ship</string>
+    <string name="word_LB_236">plane</string>
+    <string name="word_LB_237">hotel</string>
+    <string name="word_LB_238">bottle</string>
+    <string name="word_LB_239">flower</string>
+    <string name="word_LB_240">holiday</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_221">sea</string>
+    <string name="word_RB_222">ticket</string>
+    <string name="word_RB_223">car</string>
+    <string name="word_RB_224">suitcase</string>
+    <string name="word_RB_225">entry</string>
+    <string name="word_RB_226">to land</string>
+    <string name="word_RB_227">hotel</string>
+    <string name="word_RB_228">airport</string>
+    <string name="word_RB_229">to stay</string>
+    <string name="word_RB_230">island</string>
+    <string name="word_RB_231">plane</string>
+    <string name="word_RB_232">document</string>
+    <string name="word_RB_233">hotel</string>
+    <string name="word_RB_234">island</string>
+    <string name="word_RB_235">winter</string>
+    <string name="word_RB_236">restaurant</string>
+    <string name="word_RB_237">whale</string>
+    <string name="word_RB_238">shark</string>
+    <string name="word_RB_239">car</string>
+    <string name="word_RB_240">sea</string>
+    <!-- END -->
+</resources>

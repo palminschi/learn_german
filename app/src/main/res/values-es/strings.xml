@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Alemán en 30 días</string>
+
+    <string name="btn_start">Start</string>
+    <string name="btn_next">Siguiente</string>
+    <string name="btn_endLevel">Finalizar</string>
+    <string name="skip">Saltar</string>
+    <string name="editText">Escribe la palabra</string>
+    <string name="tv_endLevel">Escribe las palabras\n o frases que recuerdes</string>
+    <string name="toastSelectDay">Completa el nivel anterior</string>
+    <string name="selectDay">Seleccione el día:</string>
+    <string name="selectDayEnd">Aun no está disponible</string>
+    <string name="start_level_title">Las palabras que aprenderás hoy:</string>
+
+
+
+    <!-- Main Activity -->
+    <string name="words_learned">Palabras aprendidas</string>
+    <string name="num_words">0</string>
+    <string name="main_title_1">Aprender</string>
+    <string name="main_sub_title_1">Haz una lección al día.</string>
+    <string name="main_title_2">Practicar</string>
+    <string name="main_sub_title_2">Repite las palabras ya aprendidas con regularidad.</string>
+    <string name="main_title_3">Juegos</string>
+    <string name="main_sub_title_3">Juegos de memorización de palabras</string>
+    <string name="toastExitApp">Haga clic de nuevo para salir</string>
+    <string name="toastRepeat">Primero, completa el nivel 1</string>
+    <!-- Main Activity END -->
+
+    <!-- Shop -->
+    <string name="shop_title">Tienda</string>
+    <string name="btn_buy">Desactivar anuncios = 1,99€ (EUR)</string>
+    <string name="btn_purchased">Comprado!</string>
+    <string name="btn_like">Califica la aplicación</string>
+    <string name="buy_details">*haga clic para ver el precio en su moneda</string>
+    <!-- Shop END-->
+
+    <!-- Settings -->
+    <string name="settings_title">Ajustes</string>
+    <string name="btn_lang">Seleccione el idioma</string>
+    <string name="btn_other">Nuestras Apps</string>
+    <string name="btn_promocode">Código promocional</string>
+    <string name="btn_help">Ayuda</string>
+    <string name="btn_policy">Política de privacidad</string>
+
+    <string name="promo_title">Código promocional</string>
+    <string name="promo_subtitle">Ingrese su código de promoción:</string>
+
+    <!-- Settings END-->
+
+    <!-- Dialogs strings -->
+    <string name="dialog_end_title">¡Nivel completado!</string>
+    <string name="repeat_dialog_end_title">¡Terminado!</string>
+    <string name="dialog_end_sub_title">¡Hacer ejercicio regularmente!\n¿Repetir 10 palabras al azar?</string>
+    <string name="repeat_dialog_end_sub_title">¿Le gustaría repetir\n10 palabras más al azar?</string>
+    <string name="dialog_end_exit">Salir</string>
+    <string name="dialog_end_repeat">Repetir</string>
+    <string name="dialog_exit_title">¿Salir?</string>
+    <string name="dialog_exit_sub_title">El proceso no\n se guardará.</string>
+    <string name="dialog_exit_btn_yes">Sí</string>
+    <string name="dialog_exit_btn_no">No</string>
+    <!-- Dialogs strings END -->
+
+    <!-- Games -->
+    <string name="name_game01">Lluvia de palabras</string>
+    <string name="name_game02">Audición</string>
+    <string name="name_game03">La Horca</string>
+    <string name="sel_game_more">Más…</string>
+    <string name="more_onclick">Aun no está disponible</string>
+    <string name="win">¡Victoria!</string>
+    <string name="right">¡Correcto!</string>
+    <string name="lose">¡Perdiste!</string>
+    <string name="incorrect">¡Equivocado!</string>
+    <string name="leftLives">Vidas dejadas:</string>
+    <string name="bestScore">Mejor puntuación:</string>
+    <string name="games_wordNum">Palabra №</string>
+    <string name="game03_text_help">Escuche, luego ingrese\n la palabra que escuchó</string>
+    <!-- Games -->
+
+    <!-- Lang -->
+    <string name="languages">Idiomas</string>
+    <!-- Lang -->
+</resources>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_title_581" translatable="false">die Melone</string>
+    <string name="word_title_582" translatable="false">die Wassermelone</string>
+    <string name="word_title_583" translatable="false">besser</string>
+    <string name="word_title_584" translatable="false">mehr</string>
+    <string name="word_title_585" translatable="false">rufen</string>
+    <string name="word_title_586" translatable="false">anrufen</string>
+    <string name="word_title_587" translatable="false">der Honig</string>
+    <string name="word_title_588" translatable="false">die Biene</string>
+    <string name="word_title_589" translatable="false">der Zucker</string>
+    <string name="word_title_590" translatable="false">die Erbsen</string>
+    <string name="word_title_591" translatable="false">die Bohnen</string>
+    <string name="word_title_592" translatable="false">vorgestern</string>
+    <string name="word_title_593" translatable="false">übermorgen</string>
+    <string name="word_title_594" translatable="false">das Mal</string>
+    <string name="word_title_595" translatable="false">der Frühling</string>
+    <string name="word_title_596" translatable="false">der Herbst</string>
+    <string name="word_title_597" translatable="false">der Bleistift</string>
+    <string name="word_title_598" translatable="false">der Buchstabe</string>
+    <string name="word_title_599" translatable="false">das Wörterbuch</string>
+    <string name="word_title_600" translatable="false">das Ende</string>
+
+    <string name="word_translate_581">melon</string>
+    <string name="word_translate_582">watermelon</string>
+    <string name="word_translate_583">better</string>
+    <string name="word_translate_584">more</string>
+    <string name="word_translate_585">to call</string>
+    <string name="word_translate_586">to call</string>
+    <string name="word_translate_587">honey</string>
+    <string name="word_translate_588">bee</string>
+    <string name="word_translate_589">sugar</string>
+    <string name="word_translate_590">pea</string>
+    <string name="word_translate_591">bean</string>
+    <string name="word_translate_592">d. before yesterday</string>
+    <string name="word_translate_593">d. after tomorrow</string>
+    <string name="word_translate_594">time</string>
+    <string name="word_translate_595">spring</string>
+    <string name="word_translate_596">autumn</string>
+    <string name="word_translate_597">pencil</string>
+    <string name="word_translate_598">letter</string>
+    <string name="word_translate_599">dictionary</string>
+    <string name="word_translate_600">end</string>
+    <!-- END -->
+
+    <!-- PHRASE + TRANSLATE -->
+    <string name="phrase_581" translatable="false">Melone wächst im Garten.</string>
+    <string name="phrase_translate_581">Melon grows in the garden.</string>
+
+    <string name="phrase_582" translatable="false">Ich habe eine große Wassermelone gekauft</string>
+    <string name="phrase_translate_582">I bought a large watermelon</string>
+
+    <string name="phrase_583" translatable="false">Du weißt es besser.</string>
+    <string name="phrase_translate_583">You know better</string>
+
+    <string name="phrase_584" translatable="false">Er liest mehr als ich.</string>
+    <string name="phrase_translate_584">He reads more than I do.</string>
+
+    <string name="phrase_585" translatable="false">Ich muss ihn rufen.</string>
+    <string name="phrase_translate_585">I have to call him.</string>
+
+    <string name="phrase_586" translatable="false">Ich habe dich gestern angerufen.</string>
+    <string name="phrase_translate_586">I called you yesterday.</string>
+
+    <string name="phrase_587" translatable="false">Ich trinke Tee mit Honig.</string>
+    <string name="phrase_translate_587">Ich trinke Tee mit Honig.</string>
+
+    <string name="phrase_588" translatable="false">Ich habe Angst vor Bienen.</string>
+    <string name="phrase_translate_588">I am afraid of bees.</string>
+
+    <string name="phrase_589" translatable="false">Ich trinke Kaffee ohne Zucker.</string>
+    <string name="phrase_translate_589">I drink coffee without sugar.</string>
+
+    <string name="phrase_590" translatable="false">Ich esse keine Erbsen.</string>
+    <string name="phrase_translate_590">I do not eat peas.</string>
+
+    <string name="phrase_591" translatable="false">Sie kocht etwas aus Bohnen.</string>
+    <string name="phrase_translate_591">She cooks something from beans.</string>
+
+    <string name="phrase_592" translatable="false">Ich war vorgestern dort.</string>
+    <string name="phrase_translate_592">I was there the day before yesterday.</string>
+
+    <string name="phrase_593" translatable="false">Wir sehen uns übermorgen.</string>
+    <string name="phrase_translate_593">See you the day after tomorrow.</string>
+
+    <string name="phrase_594" translatable="false">Das ist das zweite Mal, dass ich dich anrufe</string>
+    <string name="phrase_translate_594">This is the second time I call you</string>
+
+    <string name="phrase_595" translatable="false">Im Frühling ist alles schön.</string>
+    <string name="phrase_translate_595">Everything is beautiful in spring.</string>
+
+    <string name="phrase_596" translatable="false">Im Herbst regnet es oft.</string>
+    <string name="phrase_translate_596">In autumn it often rains.</string>
+
+    <string name="phrase_597" translatable="false">Der Bleistift ist kaputt.</string>
+    <string name="phrase_translate_597">The pencil is broken.</string>
+
+    <string name="phrase_598" translatable="false">Wie viele Buchstaben hat dein Name?</string>
+    <string name="phrase_translate_598">How many letters does your name have?</string>
+
+    <string name="phrase_599" translatable="false">Ich habe kein Wort im Wörterbuch gefunden</string>
+    <string name="phrase_translate_599">I have not found the word in the dictionary</string>
+
+    <string name="phrase_600" translatable="false">das Ende</string>
+    <string name="phrase_translate_600">the end</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_581">mushroom</string>
+    <string name="word_LT_582">food</string>
+    <string name="word_LT_583">tasty</string>
+    <string name="word_LT_584">fast</string>
+    <string name="word_LT_585">to pay</string>
+    <string name="word_LT_586">to take</string>
+    <string name="word_LT_587">milk</string>
+    <string name="word_LT_588">tree</string>
+    <string name="word_LT_589">salt</string>
+    <string name="word_LT_590">napkin</string>
+    <string name="word_LT_591">dinner</string>
+    <string name="word_LT_592">d. before yesterday</string>
+    <string name="word_LT_593">today</string>
+    <string name="word_LT_594">step</string>
+    <string name="word_LT_595">forest</string>
+    <string name="word_LT_596">cloud</string>
+    <string name="word_LT_597">toy</string>
+    <string name="word_LT_598">number</string>
+    <string name="word_LT_599">city</string>
+    <string name="word_LT_600">end</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_581">melon</string>
+    <string name="word_RT_582">watermelon</string>
+    <string name="word_RT_583">weakly</string>
+    <string name="word_RT_584">cold</string>
+    <string name="word_RT_585">to jump</string>
+    <string name="word_RT_586">to call</string>
+    <string name="word_RT_587">honey</string>
+    <string name="word_RT_588">bird</string>
+    <string name="word_RT_589">coffee</string>
+    <string name="word_RT_590">pea</string>
+    <string name="word_RT_591">lunch</string>
+    <string name="word_RT_592">tomorrow</string>
+    <string name="word_RT_593">d. after tomorrow</string>
+    <string name="word_RT_594">transfer</string>
+    <string name="word_RT_595">cold</string>
+    <string name="word_RT_596">autumn</string>
+    <string name="word_RT_597">pencil</string>
+    <string name="word_RT_598">manual</string>
+    <string name="word_RT_599">letter</string>
+    <string name="word_RT_600">end</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_581">sausage</string>
+    <string name="word_LB_582">knife</string>
+    <string name="word_LB_583">large</string>
+    <string name="word_LB_584">more</string>
+    <string name="word_LB_585">to work</string>
+    <string name="word_LB_586">to stay</string>
+    <string name="word_LB_587">kettle</string>
+    <string name="word_LB_588">flower</string>
+    <string name="word_LB_589">sugar</string>
+    <string name="word_LB_590">food</string>
+    <string name="word_LB_591">bean</string>
+    <string name="word_LB_592">today</string>
+    <string name="word_LB_593">yesterday</string>
+    <string name="word_LB_594">case</string>
+    <string name="word_LB_595">season</string>
+    <string name="word_LB_596">spring</string>
+    <string name="word_LB_597">guitar</string>
+    <string name="word_LB_598">letter</string>
+    <string name="word_LB_599">book</string>
+    <string name="word_LB_600">end</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_581">vegetables</string>
+    <string name="word_RB_582">fruct</string>
+    <string name="word_RB_583">better</string>
+    <string name="word_RB_584">sick</string>
+    <string name="word_RB_585">to call</string>
+    <string name="word_RB_586">to run</string>
+    <string name="word_RB_587">flower</string>
+    <string name="word_RB_588">bee</string>
+    <string name="word_RB_589">juice</string>
+    <string name="word_RB_590">taste</string>
+    <string name="word_RB_591">diet</string>
+    <string name="word_RB_592">never</string>
+    <string name="word_RB_593">d. before yesterday</string>
+    <string name="word_RB_594">time</string>
+    <string name="word_RB_595">spring</string>
+    <string name="word_RB_596">frost</string>
+    <string name="word_RB_597">pen</string>
+    <string name="word_RB_598">word</string>
+    <string name="word_RB_599">dictionary</string>
+    <string name="word_RB_600">end</string>
+    <!-- END -->
+</resources>

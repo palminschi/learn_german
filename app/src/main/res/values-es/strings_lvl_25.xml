@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_translate_481">el patio</string>
+    <string name="word_translate_482">el resto</string>
+    <string name="word_translate_483">el dormitorio</string>
+    <string name="word_translate_484">el sillón</string>
+    <string name="word_translate_485">la alfombra</string>
+    <string name="word_translate_486">el arrendador</string>
+    <string name="word_translate_487">la playa</string>
+    <string name="word_translate_488">el puente</string>
+    <string name="word_translate_489">el campo</string>
+    <string name="word_translate_490">la acera</string>
+    <string name="word_translate_491">el cruce</string>
+    <string name="word_translate_492">cruzar</string>
+    <string name="word_translate_493">la piedra</string>
+    <string name="word_translate_494">tirar</string>
+    <string name="word_translate_495">el césped</string>
+    <string name="word_translate_496">la planta</string>
+    <string name="word_translate_497">el cuarto de baño</string>
+    <string name="word_translate_498">la ducha</string>
+    <string name="word_translate_499">el inodoro</string>
+    <string name="word_translate_500">la pared</string>
+    <!-- END -->
+
+    <!-- PHRASE -->
+    <string name="phrase_translate_481">Niños jugando en el patio.</string>
+    <string name="phrase_translate_482">Necesito descansar.</string>
+    <string name="phrase_translate_483">Mi apartamento tiene dos habitaciones.</string>
+    <string name="phrase_translate_484">Me senté en el sillón</string>
+    <string name="phrase_translate_485">La alfombra está manchada.</string>
+    <string name="phrase_translate_486">El arrendador quiere vender la casa.</string>
+    <string name="phrase_translate_487">Descanso en la playa.</string>
+    <string name="phrase_translate_488">El puente es muy antiguo.</string>
+    <string name="phrase_translate_489">El maíz crece en el campo.</string>
+    <string name="phrase_translate_490">Camino por la acera.</string>
+    <string name="phrase_translate_491">Pasamos la encrucijada.</string>
+    <string name="phrase_translate_492">Cruzó la calle</string>
+    <string name="phrase_translate_493">Ha caído una piedra de la montaña.</string>
+    <string name="phrase_translate_494">Arrojó una piedra.</string>
+    <string name="phrase_translate_495">La hierba es verde en verano.</string>
+    <string name="phrase_translate_496">Tiene muchas plantas en su departamento</string>
+    <string name="phrase_translate_497">¿Dónde está tu baño?</string>
+    <string name="phrase_translate_498">Me gustaría darme una ducha.</string>
+    <string name="phrase_translate_499">Necesito ir al baño.</string>
+    <string name="phrase_translate_500">La pintura cuelga de la pared.</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_481">La aldea</string>
+    <string name="word_LT_482">el árbol</string>
+    <string name="word_LT_483">La aldea</string>
+    <string name="word_LT_484">la isla</string>
+    <string name="word_LT_485">la flor</string>
+    <string name="word_LT_486">el arrendador</string>
+    <string name="word_LT_487">el castillo</string>
+    <string name="word_LT_488">La aldea</string>
+    <string name="word_LT_489">el camino</string>
+    <string name="word_LT_490">el cuarto de baño</string>
+    <string name="word_LT_491">la rama</string>
+    <string name="word_LT_492">componer</string>
+    <string name="word_LT_493">la cartera</string>
+    <string name="word_LT_494">tirar</string>
+    <string name="word_LT_495">el equipo</string>
+    <string name="word_LT_496">la tapa</string>
+    <string name="word_LT_497">el funcionamiento</string>
+    <string name="word_LT_498">la ducha</string>
+    <string name="word_LT_499">la cerca</string>
+    <string name="word_LT_500">el atuendo</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_481">el castillo</string>
+    <string name="word_RT_482">el animal</string>
+    <string name="word_RT_483">el dormitorio</string>
+    <string name="word_RT_484">el sillón</string>
+    <string name="word_RT_485">la alfombra</string>
+    <string name="word_RT_486">la mariposa</string>
+    <string name="word_RT_487">la playa</string>
+    <string name="word_RT_488">el puente</string>
+    <string name="word_RT_489">la mano</string>
+    <string name="word_RT_490">la raíz</string>
+    <string name="word_RT_491">El sonido</string>
+    <string name="word_RT_492">comer</string>
+    <string name="word_RT_493">la piedra</string>
+    <string name="word_RT_494">coleccionar</string>
+    <string name="word_RT_495">el pelo</string>
+    <string name="word_RT_496">la cabeza</string>
+    <string name="word_RT_497">el cuarto de baño</string>
+    <string name="word_RT_498">el cuerpo</string>
+    <string name="word_RT_499">la parada</string>
+    <string name="word_RT_500">la intersección</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_481">la gasolinera</string>
+    <string name="word_LB_482">el resto</string>
+    <string name="word_LB_483">la montaña</string>
+    <string name="word_LB_484">el árbol</string>
+    <string name="word_LB_485">el jardín</string>
+    <string name="word_LB_486">los vegetales</string>
+    <string name="word_LB_487">la cerca</string>
+    <string name="word_LB_488">la montaña</string>
+    <string name="word_LB_489">el campo</string>
+    <string name="word_LB_490">la acera</string>
+    <string name="word_LB_491">el cruce</string>
+    <string name="word_LB_492">cruzar</string>
+    <string name="word_LB_493">el armario</string>
+    <string name="word_LB_494">regar</string>
+    <string name="word_LB_495">la tapa</string>
+    <string name="word_LB_496">la planta</string>
+    <string name="word_LB_497">el perro</string>
+    <string name="word_LB_498">el atuendo</string>
+    <string name="word_LB_499">la cabeza</string>
+    <string name="word_LB_500">el patio</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_481">el patio</string>
+    <string name="word_RB_482">el puente</string>
+    <string name="word_RB_483">el árbol</string>
+    <string name="word_RB_484">el juego</string>
+    <string name="word_RB_485">el avión</string>
+    <string name="word_RB_486">el perro</string>
+    <string name="word_RB_487">la tierra</string>
+    <string name="word_RB_488">la ventana</string>
+    <string name="word_RB_489">el mar</string>
+    <string name="word_RB_490">el bosque</string>
+    <string name="word_RB_491">los lentes</string>
+    <string name="word_RB_492">viajar</string>
+    <string name="word_RB_493">la Iglesia</string>
+    <string name="word_RB_494">saltar</string>
+    <string name="word_RB_495">el césped</string>
+    <string name="word_RB_496">la boca</string>
+    <string name="word_RB_497">la choza</string>
+    <string name="word_RB_498">las puertas</string>
+    <string name="word_RB_499">el inodoro</string>
+    <string name="word_RB_500">la pared</string>
+    <!-- END -->
+</resources>

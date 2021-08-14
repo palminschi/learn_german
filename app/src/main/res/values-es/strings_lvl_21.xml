@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_translate_401">el enchufe</string>
+    <string name="word_translate_402">el fregadero</string>
+    <string name="word_translate_403">similar</string>
+    <string name="word_translate_404">roto</string>
+    <string name="word_translate_405">el microondas</string>
+    <string name="word_translate_406">el lavavajillas</string>
+    <string name="word_translate_407">el bote de basura</string>
+    <string name="word_translate_408">ordenar</string>
+    <string name="word_translate_409">saber</string>
+    <string name="word_translate_410">la lata</string>
+    <string name="word_translate_411">oscuro</string>
+    <string name="word_translate_412">luz</string>
+    <string name="word_translate_413">caro</string>
+    <string name="word_translate_414">entero</string>
+    <string name="word_translate_415">suficiente</string>
+    <string name="word_translate_416">el manual</string>
+    <string name="word_translate_417">la enfermera</string>
+    <string name="word_translate_418">la persona</string>
+    <string name="word_translate_419">la piscina</string>
+    <string name="word_translate_420">nadar</string>
+
+    <!-- PHRASE -->
+    <string name="phrase_translate_401">Saqué el enchufe del enchufe.</string>
+    <string name="phrase_translate_402">Se lava las manos en el fregadero</string>
+    <string name="phrase_translate_403">Ellos son muy similares.</string>
+    <string name="phrase_translate_404">Mi coche esta roto.</string>
+    <string name="phrase_translate_405">Pongo la comida en el microondas.</string>
+    <string name="phrase_translate_406">Compré un lavavajillas.</string>
+    <string name="phrase_translate_407">Tiro la basura a la basura.</string>
+    <string name="phrase_translate_408">¿Que ordenaste?</string>
+    <string name="phrase_translate_409">¿Lo conoces?</string>
+    <string name="phrase_translate_410">una lata de carne</string>
+    <string name="phrase_translate_411">Está oscuro por la noche.</string>
+    <string name="phrase_translate_412">El auto es gris claro.</string>
+    <string name="phrase_translate_413">Es muy caro.</string>
+    <string name="phrase_translate_414">El mundo entero</string>
+    <string name="phrase_translate_415">He comido lo suficiente.</string>
+    <string name="phrase_translate_416">Aprendo alemán con un manual.</string>
+    <string name="phrase_translate_417">La enfermera le dio la inyección.</string>
+    <string name="phrase_translate_418">Una persona me ayudó.</string>
+    <string name="phrase_translate_419">A menudo voy a la piscina.</string>
+    <string name="phrase_translate_420">Ella no sabe nadar.</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_401">la cremallera</string>
+    <string name="word_LT_402">el armario</string>
+    <string name="word_LT_403">Rico</string>
+    <string name="word_LT_404">primero</string>
+    <string name="word_LT_405">la tienda</string>
+    <string name="word_LT_406">la sopa</string>
+    <string name="word_LT_407">La cocina</string>
+    <string name="word_LT_408">ordenar</string>
+    <string name="word_LT_409">vivir</string>
+    <string name="word_LT_410">el cristal</string>
+    <string name="word_LT_411">oscuro</string>
+    <string name="word_LT_412">mojado</string>
+    <string name="word_LT_413">pequeño</string>
+    <string name="word_LT_414">hoy dia</string>
+    <string name="word_LT_415">nada</string>
+    <string name="word_LT_416">el número</string>
+    <string name="word_LT_417">el policía</string>
+    <string name="word_LT_418">el hermano</string>
+    <string name="word_LT_419">la isla</string>
+    <string name="word_LT_420">dar</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_401">la corbata</string>
+    <string name="word_RT_402">El camarero</string>
+    <string name="word_RT_403">dorado</string>
+    <string name="word_RT_404">casado</string>
+    <string name="word_RT_405">el microondas</string>
+    <string name="word_RT_406">La tetera</string>
+    <string name="word_RT_407">el bote de basura</string>
+    <string name="word_RT_408">ganar</string>
+    <string name="word_RT_409">buscar</string>
+    <string name="word_RT_410">la lata</string>
+    <string name="word_RT_411">amarillo</string>
+    <string name="word_RT_412">Ventoso</string>
+    <string name="word_RT_413">grande</string>
+    <string name="word_RT_414">entero</string>
+    <string name="word_RT_415">pocos</string>
+    <string name="word_RT_416">el manual</string>
+    <string name="word_RT_417">la enfermera</string>
+    <string name="word_RT_418">el hijo</string>
+    <string name="word_RT_419">la piscina</string>
+    <string name="word_RT_420">limpiar</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_401">el enchufe</string>
+    <string name="word_LB_402">la música</string>
+    <string name="word_LB_403">luz</string>
+    <string name="word_LB_404">último</string>
+    <string name="word_LB_405">la sopa</string>
+    <string name="word_LB_406">el lavavajillas</string>
+    <string name="word_LB_407">la bebida</string>
+    <string name="word_LB_408">vender</string>
+    <string name="word_LB_409">saber</string>
+    <string name="word_LB_410">El tenedor</string>
+    <string name="word_LB_411">verde</string>
+    <string name="word_LB_412">luz</string>
+    <string name="word_LB_413">caro</string>
+    <string name="word_LB_414">soleado</string>
+    <string name="word_LB_415">mucho</string>
+    <string name="word_LB_416">la carta</string>
+    <string name="word_LB_417">el maestro</string>
+    <string name="word_LB_418">la persona</string>
+    <string name="word_LB_419">la flor</string>
+    <string name="word_LB_420">nadar</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_401">Los vaqueros</string>
+    <string name="word_RB_402">el fregadero</string>
+    <string name="word_RB_403">similar</string>
+    <string name="word_RB_404">roto</string>
+    <string name="word_RB_405">el pan</string>
+    <string name="word_RB_406">la nevera</string>
+    <string name="word_RB_407">el té</string>
+    <string name="word_RB_408">pagar</string>
+    <string name="word_RB_409">amar</string>
+    <string name="word_RB_410">el cuchillo</string>
+    <string name="word_RB_411">rosado</string>
+    <string name="word_RB_412">oscuro</string>
+    <string name="word_RB_413">dulce</string>
+    <string name="word_RB_414">cálido</string>
+    <string name="word_RB_415">suficiente</string>
+    <string name="word_RB_416">la palabra</string>
+    <string name="word_RB_417">el constructor</string>
+    <string name="word_RB_418">el sol</string>
+    <string name="word_RB_419">el coche</string>
+    <string name="word_RB_420">cocinar</string>
+    <!-- END -->
+</resources>

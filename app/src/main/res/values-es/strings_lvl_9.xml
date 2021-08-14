@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_translate_161">el camarero</string>
+    <string name="word_translate_162">la punta</string>
+    <string name="word_translate_163">la factura</string>
+    <string name="word_translate_164">el descuento</string>
+    <string name="word_translate_165">el efectivo</string>
+    <string name="word_translate_166">el precio</string>
+    <string name="word_translate_167">la comida</string>
+    <string name="word_translate_168">la cena</string>
+    <string name="word_translate_169">el almuerzo</string>
+    <string name="word_translate_170">La servilleta</string>
+    <string name="word_translate_171">el cuchillo</string>
+    <string name="word_translate_172">el plato</string>
+    <string name="word_translate_173">la cuchara</string>
+    <string name="word_translate_174">la botella</string>
+    <string name="word_translate_175">el vino</string>
+    <string name="word_translate_176">La tetera</string>
+    <string name="word_translate_177">el tamaño</string>
+    <string name="word_translate_178">pequeño</string>
+    <string name="word_translate_179">grande</string>
+    <string name="word_translate_180">la fuerza</string>
+    <!-- END -->
+
+    <!-- PHRASE -->
+    <string name="phrase_translate_161">Yo trabajo como camarero.</string>
+    <string name="phrase_translate_162">Dejó una propina.</string>
+    <string name="phrase_translate_163">¡La cuenta, por favor!</string>
+    <string name="phrase_translate_164">Muchos descuentos hoy.</string>
+    <string name="phrase_translate_165">Solo tengo efectivo.</string>
+    <string name="phrase_translate_166">El precio es muy alto.</string>
+    <string name="phrase_translate_167">¡Disfrute de su comida!</string>
+    <string name="phrase_translate_168">Cena en el restaurante</string>
+    <string name="phrase_translate_169">El almuerzo esta listo.</string>
+    <string name="phrase_translate_170">¿Puedo conseguir otra servilleta?</string>
+    <string name="phrase_translate_171">El cuchillo no corta.</string>
+    <string name="phrase_translate_172">Trae el plato, por favor.</string>
+    <string name="phrase_translate_173">Me lo como con una cuchara.</string>
+    <string name="phrase_translate_174">Una botella de leche.</string>
+    <string name="phrase_translate_175">Beberemos vino.</string>
+    <string name="phrase_translate_176">La tetera está hirviendo.</string>
+    <string name="phrase_translate_177">¿Qué talla de zapato tienes?</string>
+    <string name="phrase_translate_178">Todavía es pequeño.</string>
+    <string name="phrase_translate_179">Los pantalones me quedan demasiado grandes.</string>
+    <string name="phrase_translate_180">Él es muy fuerte.</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_161">el sótano</string>
+    <string name="word_LT_162">el agua</string>
+    <string name="word_LT_163">el tren</string>
+    <string name="word_LT_164">La servilleta</string>
+    <string name="word_LT_165">el efectivo</string>
+    <string name="word_LT_166">los alimentos</string>
+    <string name="word_LT_167">La servilleta</string>
+    <string name="word_LT_168">la cena</string>
+    <string name="word_LT_169">el desayuno</string>
+    <string name="word_LT_170">los alimentos</string>
+    <string name="word_LT_171">el cuchillo</string>
+    <string name="word_LT_172">El camarero</string>
+    <string name="word_LT_173">la cuchara</string>
+    <string name="word_LT_174">la flor</string>
+    <string name="word_LT_175">el restaurante</string>
+    <string name="word_LT_176">el dinero</string>
+    <string name="word_LT_177">la casa</string>
+    <string name="word_LT_178">pequeño</string>
+    <string name="word_LT_179">fuerte</string>
+    <string name="word_LT_180">la estrella</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_161">el camarero</string>
+    <string name="word_RT_162">la punta</string>
+    <string name="word_RT_163">La tetera</string>
+    <string name="word_RT_164">la botella</string>
+    <string name="word_RT_165">la música</string>
+    <string name="word_RT_166">el precio</string>
+    <string name="word_RT_167">el plato</string>
+    <string name="word_RT_168">el almuerzo</string>
+    <string name="word_RT_169">el cuchillo</string>
+    <string name="word_RT_170">La servilleta</string>
+    <string name="word_RT_171">la boca</string>
+    <string name="word_RT_172">la cuchara</string>
+    <string name="word_RT_173">El tenedor</string>
+    <string name="word_RT_174">la botella</string>
+    <string name="word_RT_175">el sótano</string>
+    <string name="word_RT_176">El camarero</string>
+    <string name="word_RT_177">el dinero</string>
+    <string name="word_RT_178">grande</string>
+    <string name="word_RT_179">débil</string>
+    <string name="word_RT_180">la punta</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_161">la música</string>
+    <string name="word_LB_162">la bebida</string>
+    <string name="word_LB_163">la factura</string>
+    <string name="word_LB_164">la cuchara</string>
+    <string name="word_LB_165">el dinero</string>
+    <string name="word_LB_166">la factura</string>
+    <string name="word_LB_167">la comida</string>
+    <string name="word_LB_168">la noche</string>
+    <string name="word_LB_169">la tetera</string>
+    <string name="word_LB_170">el cuchillo</string>
+    <string name="word_LB_171">la basura</string>
+    <string name="word_LB_172">El tenedor</string>
+    <string name="word_LB_173">la tienda</string>
+    <string name="word_LB_174">el avión</string>
+    <string name="word_LB_175">el vino</string>
+    <string name="word_LB_176">la flor</string>
+    <string name="word_LB_177">el tamaño</string>
+    <string name="word_LB_178">rápido</string>
+    <string name="word_LB_179">grande</string>
+    <string name="word_LB_180">la fuerza</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_161">el avión</string>
+    <string name="word_RB_162">el té</string>
+    <string name="word_RB_163">el atuendo</string>
+    <string name="word_RB_164">el descuento</string>
+    <string name="word_RB_165">la botella</string>
+    <string name="word_RB_166">el descuento</string>
+    <string name="word_RB_167">la cuchara</string>
+    <string name="word_RB_168">el desayuno</string>
+    <string name="word_RB_169">el almuerzo</string>
+    <string name="word_RB_170">La tetera</string>
+    <string name="word_RB_171">la cuchara</string>
+    <string name="word_RB_172">el plato</string>
+    <string name="word_RB_173">las escaleras</string>
+    <string name="word_RB_174">la foto</string>
+    <string name="word_RB_175">el dinero</string>
+    <string name="word_RB_176">La tetera</string>
+    <string name="word_RB_177">la gente</string>
+    <string name="word_RB_178">lejos</string>
+    <string name="word_RB_179">lento</string>
+    <string name="word_RB_180">el descuento</string>
+    <!-- END -->
+</resources>

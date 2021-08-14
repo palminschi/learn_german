@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_translate_201">la caminata</string>
+    <string name="word_translate_202">andar</string>
+    <string name="word_translate_203">el jogging</string>
+    <string name="word_translate_204">el bosque</string>
+    <string name="word_translate_205">el parque</string>
+    <string name="word_translate_206">los patines</string>
+    <string name="word_translate_207">El patinador</string>
+    <string name="word_translate_208">el skate</string>
+    <string name="word_translate_209">el ocio</string>
+    <string name="word_translate_210">el fin de semana</string>
+    <string name="word_translate_211">volar</string>
+    <string name="word_translate_212">las vacaciones</string>
+    <string name="word_translate_213">la Navidad</string>
+    <string name="word_translate_214">visitar</string>
+    <string name="word_translate_215">reservar</string>
+    <string name="word_translate_216">el hotel</string>
+    <string name="word_translate_217">quedarse</string>
+    <string name="word_translate_218">la maleta</string>
+    <string name="word_translate_219">el extranjero</string>
+    <string name="word_translate_220">las costumbres</string>
+
+    <!-- PHRASE -->
+    <string name="phrase_translate_201">Voy a dar una caminata.</string>
+    <string name="phrase_translate_202">Amo caminar.</string>
+    <string name="phrase_translate_203">¿Vas a trotar?</string>
+    <string name="phrase_translate_204">Voy por el bosque.</string>
+    <string name="phrase_translate_205">Hermoso parque.</string>
+    <string name="phrase_translate_206">Mi hijo tiene patines.</string>
+    <string name="phrase_translate_207">Voy en patineta.</string>
+    <string name="phrase_translate_208">Patinaje sobre hielo</string>
+    <string name="phrase_translate_209">Ahora tengo tiempo libre.</string>
+    <string name="phrase_translate_210">¿Dónde vas los fines de semana?</string>
+    <string name="phrase_translate_211">Estoy volando hacia el mar.</string>
+    <string name="phrase_translate_212">El chico está de vacaciones.</string>
+    <string name="phrase_translate_213">¡Pronto será Navidad!</string>
+    <string name="phrase_translate_214">¿A cuántos países has estado?</string>
+    <string name="phrase_translate_215">He reservado un hotel.</string>
+    <string name="phrase_translate_216">Vivo en un hotel.</string>
+    <string name="phrase_translate_217">Me voy a quedar en casa.</string>
+    <string name="phrase_translate_218">¿Dónde está mi maleta?</string>
+    <string name="phrase_translate_219">Vive en el extranjero.</string>
+    <string name="phrase_translate_220">Tenemos que pasar por la aduana.</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_201">la flor</string>
+    <string name="word_LT_202">andar</string>
+    <string name="word_LT_203">el avión</string>
+    <string name="word_LT_204">el mar</string>
+    <string name="word_LT_205">el parque</string>
+    <string name="word_LT_206">la isla</string>
+    <string name="word_LT_207">El patinador</string>
+    <string name="word_LT_208">el juguete</string>
+    <string name="word_LT_209">el avión</string>
+    <string name="word_LT_210">el mes</string>
+    <string name="word_LT_211">volar</string>
+    <string name="word_LT_212">el árbol</string>
+    <string name="word_LT_213">la noche</string>
+    <string name="word_LT_214">para volar</string>
+    <string name="word_LT_215">reservar</string>
+    <string name="word_LT_216">la flor</string>
+    <string name="word_LT_217">tomar</string>
+    <string name="word_LT_218">el avión</string>
+    <string name="word_LT_219">el extranjero</string>
+    <string name="word_LT_220">el árbol</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_201">la caminata</string>
+    <string name="word_RT_202">correr</string>
+    <string name="word_RT_203">la mariposa</string>
+    <string name="word_RT_204">la montaña</string>
+    <string name="word_RT_205">el tren</string>
+    <string name="word_RT_206">los patines</string>
+    <string name="word_RT_207">la guitarra</string>
+    <string name="word_RT_208">el dulce</string>
+    <string name="word_RT_209">el árbol</string>
+    <string name="word_RT_210">la semana</string>
+    <string name="word_RT_211">cantar</string>
+    <string name="word_RT_212">las vacaciones</string>
+    <string name="word_RT_213">la mariposa</string>
+    <string name="word_RT_214">encontrar</string>
+    <string name="word_RT_215">correr</string>
+    <string name="word_RT_216">el hotel</string>
+    <string name="word_RT_217">jugar</string>
+    <string name="word_RT_218">el ocio</string>
+    <string name="word_RT_219">la Navidad</string>
+    <string name="word_RT_220">las costumbres</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_201">la montaña</string>
+    <string name="word_LB_202">aprender</string>
+    <string name="word_LB_203">el jogging</string>
+    <string name="word_LB_204">el árbol</string>
+    <string name="word_LB_205">la casa</string>
+    <string name="word_LB_206">el árbol</string>
+    <string name="word_LB_207">el pastel</string>
+    <string name="word_LB_208">la guitarra</string>
+    <string name="word_LB_209">el ocio</string>
+    <string name="word_LB_210">el fin</string>
+    <string name="word_LB_211">saltar</string>
+    <string name="word_LB_212">la flor</string>
+    <string name="word_LB_213">la Navidad</string>
+    <string name="word_LB_214">buscar</string>
+    <string name="word_LB_215">encontrar</string>
+    <string name="word_LB_216">el avión</string>
+    <string name="word_LB_217">quedarse</string>
+    <string name="word_LB_218">la montaña</string>
+    <string name="word_LB_219">la mariposa</string>
+    <string name="word_LB_220">la flor</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_201">el avión</string>
+    <string name="word_RB_202">dar</string>
+    <string name="word_RB_203">la flor</string>
+    <string name="word_RB_204">el bosque</string>
+    <string name="word_RB_205">la música</string>
+    <string name="word_RB_206">el juego</string>
+    <string name="word_RB_207">la alegria</string>
+    <string name="word_RB_208">el skate</string>
+    <string name="word_RB_209">el tiempo</string>
+    <string name="word_RB_210">el fin de semana</string>
+    <string name="word_RB_211">trabajar</string>
+    <string name="word_RB_212">el ocio</string>
+    <string name="word_RB_213">el invierno</string>
+    <string name="word_RB_214">visitar</string>
+    <string name="word_RB_215">dar</string>
+    <string name="word_RB_216">el restaurante</string>
+    <string name="word_RB_217">correr</string>
+    <string name="word_RB_218">la maleta</string>
+    <string name="word_RB_219">el ocio</string>
+    <string name="word_RB_220">el avión</string>
+    <!-- END -->
+</resources>

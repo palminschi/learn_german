@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_translate_61">la profesion</string>
+    <string name="word_translate_62">el aprendizaje</string>
+    <string name="word_translate_63">el mundo</string>
+    <string name="word_translate_64">la gente</string>
+    <string name="word_translate_65">los padres</string>
+    <string name="word_translate_66">vivir</string>
+    <string name="word_translate_67">la vida</string>
+    <string name="word_translate_68">ya</string>
+    <string name="word_translate_69">espléndido</string>
+    <string name="word_translate_70">amar</string>
+    <string name="word_translate_71">¿Qué?</string>
+    <string name="word_translate_72">rápido</string>
+    <string name="word_translate_73">casado</string>
+    <string name="word_translate_74">deber</string>
+    <string name="word_translate_75">el piso</string>
+    <string name="word_translate_76">la habitación</string>
+    <string name="word_translate_77">la cama</string>
+    <string name="word_translate_78">la flor</string>
+    <string name="word_translate_79">el árbol</string>
+    <string name="word_translate_80">verde</string>
+    <!-- END -->
+
+    <!-- PHRASE + TRANSLATE -->
+    <string name="phrase_translate_61">Él es <b>médico</b> de profesión.</string>
+    <string name="phrase_translate_62">Actualmente estoy haciendo un <b>aprendizaje</b>.</string>
+    <string name="phrase_translate_63">Yo viajo por el <b>mundo</b>.</string>
+    <string name="phrase_translate_64">Él conoce a mucha <b>gente</b> aquí.</string>
+    <string name="phrase_translate_65">¿A qué se dedican tus <b>padres</b>?</string>
+    <string name="phrase_translate_66">Yo <b>vivo</b> en un apartamento.</string>
+    <string name="phrase_translate_67">Nunca en la <b>vida</b></string>
+    <string name="phrase_translate_68">Yo ya estoy allí.</string>
+    <string name="phrase_translate_69">¡Esto es <b>hermoso</b>!</string>
+    <string name="phrase_translate_70">¡Te quiero!</string>
+    <string name="phrase_translate_71">¿<b>Qué</b> estás haciendo?</string>
+    <string name="phrase_translate_72">Tú conduces <b>rápido</b>.</string>
+    <string name="phrase_translate_73">Ya estoy casada.</string>
+    <string name="phrase_translate_74">Yo <b>debo</b> trabajar.</string>
+    <string name="phrase_translate_75">Yo vivo en un <b>piso</b>.</string>
+    <string name="phrase_translate_76">Mi apartamento tiene dos <b>habitaciones</b>.</string>
+    <string name="phrase_translate_77">ir a <b>cama</b></string>
+    <string name="phrase_translate_78">A ella le gustan las flores.</string>
+    <string name="phrase_translate_79"><b>Este árbol</b> es muy antiguo.</string>
+    <string name="phrase_translate_80">Mi coche es <b>verde</b>.</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_61">la carta</string>
+    <string name="word_LT_62">la salida</string>
+    <string name="word_LT_63">dinero</string>
+    <string name="word_LT_64">la gente</string>
+    <string name="word_LT_65">la cama</string>
+    <string name="word_LT_66">vivir</string>
+    <string name="word_LT_67">El amor</string>
+    <string name="word_LT_68">De nuevo</string>
+    <string name="word_LT_69">espléndido</string>
+    <string name="word_LT_70">vivir</string>
+    <string name="word_LT_71">¿Por qué?</string>
+    <string name="word_LT_72">rápido</string>
+    <string name="word_LT_73">primero</string>
+    <string name="word_LT_74">deber</string>
+    <string name="word_LT_75">la habitación</string>
+    <string name="word_LT_76">Invierno</string>
+    <string name="word_LT_77">la cama</string>
+    <string name="word_LT_78">la puerta</string>
+    <string name="word_LT_79">La tierra</string>
+    <string name="word_LT_80">verde</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_61">la profesion</string>
+    <string name="word_RT_62">el aprendizaje</string>
+    <string name="word_RT_63">las vacaciones</string>
+    <string name="word_RT_64">el barco</string>
+    <string name="word_RT_65">los niños</string>
+    <string name="word_RT_66">salir</string>
+    <string name="word_RT_67">libertad</string>
+    <string name="word_RT_68">ya</string>
+    <string name="word_RT_69">Rojo</string>
+    <string name="word_RT_70">encontrar</string>
+    <string name="word_RT_71">¿Cuándo?</string>
+    <string name="word_RT_72">frío</string>
+    <string name="word_RT_73">casado</string>
+    <string name="word_RT_74">lavar</string>
+    <string name="word_RT_75">la cama</string>
+    <string name="word_RT_76">el mar</string>
+    <string name="word_RT_77">la mesa</string>
+    <string name="word_RT_78">el árbol</string>
+    <string name="word_RT_79">el cuarto de baño</string>
+    <string name="word_RT_80">gris</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_61">el libro</string>
+    <string name="word_LB_62">el iceberg</string>
+    <string name="word_LB_63">el mar</string>
+    <string name="word_LB_64">la cabeza</string>
+    <string name="word_LB_65">los padres</string>
+    <string name="word_LB_66">preguntar</string>
+    <string name="word_LB_67">la vida</string>
+    <string name="word_LB_68">luego</string>
+    <string name="word_LB_69">rápido</string>
+    <string name="word_LB_70">ir</string>
+    <string name="word_LB_71">¿Cuales?</string>
+    <string name="word_LB_72">lento</string>
+    <string name="word_LB_73">último</string>
+    <string name="word_LB_74">puede</string>
+    <string name="word_LB_75">el piso</string>
+    <string name="word_LB_76">las vacaciones</string>
+    <string name="word_LB_77">la silla</string>
+    <string name="word_LB_78">la flor</string>
+    <string name="word_LB_79">la cama</string>
+    <string name="word_LB_80">amarillo</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_61">el número</string>
+    <string name="word_RB_62">el océano</string>
+    <string name="word_RB_63">el mundo</string>
+    <string name="word_RB_64">el árbol</string>
+    <string name="word_RB_65">piso</string>
+    <string name="word_RB_66">entrar</string>
+    <string name="word_RB_67">la casa</string>
+    <string name="word_RB_68">espléndido</string>
+    <string name="word_RB_69">lento</string>
+    <string name="word_RB_70">amar</string>
+    <string name="word_RB_71">¿Qué?</string>
+    <string name="word_RB_72">caliente</string>
+    <string name="word_RB_73">divorciado</string>
+    <string name="word_RB_74">preguntar</string>
+    <string name="word_RB_75">la vida</string>
+    <string name="word_RB_76">la habitación</string>
+    <string name="word_RB_77">la puerta</string>
+    <string name="word_RB_78">La tierra</string>
+    <string name="word_RB_79">el árbol</string>
+    <string name="word_RB_80">negro</string>
+    <!-- END -->
+</resources>

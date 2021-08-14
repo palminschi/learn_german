@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_translate_121">la parada</string>
+    <string name="word_translate_122">detener</string>
+    <string name="word_translate_123">el pueblo</string>
+    <string name="word_translate_124">allí</string>
+    <string name="word_translate_125">aquí</string>
+    <string name="word_translate_126">lejos</string>
+    <string name="word_translate_127">la cerca</string>
+    <string name="word_translate_128">saltar</string>
+    <string name="word_translate_129">caer</string>
+    <string name="word_translate_130">la pierna</string>
+    <string name="word_translate_131">los pantalones</string>
+    <string name="word_translate_132">los zapatos</string>
+    <string name="word_translate_133">la cartera</string>
+    <string name="word_translate_134">la chaqueta</string>
+    <string name="word_translate_135">el pelo</string>
+    <string name="word_translate_136">la tapa</string>
+    <string name="word_translate_137">el sombrero</string>
+    <string name="word_translate_138">el atuendo</string>
+    <string name="word_translate_139">la cabeza</string>
+    <string name="word_translate_140">la boca</string>
+    <!-- END -->
+
+    <!-- PHRASE  -->
+    <string name="phrase_translate_121">Estoy esperando en la parada del bus.</string>
+    <string name="phrase_translate_122">Deténgase aquí.</string>
+    <string name="phrase_translate_123">¿Vives en una ciudad o en un pueblo?</string>
+    <string name="phrase_translate_124">Yo vivo allá.</string>
+    <string name="phrase_translate_125">Aquí y ahora</string>
+    <string name="phrase_translate_126">Me voy muy lejos</string>
+    <string name="phrase_translate_127">La valla es alta.</string>
+    <string name="phrase_translate_128">Estoy saltando la valla.</string>
+    <string name="phrase_translate_129">¿Te has caído?</string>
+    <string name="phrase_translate_130">Me duele la pierna.</string>
+    <string name="phrase_translate_131">Los pantalones son demasiado cortos.</string>
+    <string name="phrase_translate_132">Tengo que comprar zapatos.</string>
+    <string name="phrase_translate_133">He perdido mi cartera.</string>
+    <string name="phrase_translate_134">Tu chaqueta está sucia.</string>
+    <string name="phrase_translate_135">Tienes cabello largo.</string>
+    <string name="phrase_translate_136">¿Dónde está mi gorra?</string>
+    <string name="phrase_translate_137">Tiene un gran sombrero.</string>
+    <string name="phrase_translate_138">Tienda de ropa</string>
+    <string name="phrase_translate_139">Me duele la cabeza.</string>
+    <string name="phrase_translate_140">Respira por la boca</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_121">La aldea</string>
+    <string name="word_LT_122">comer</string>
+    <string name="word_LT_123">el pueblo</string>
+    <string name="word_LT_124">detrás</string>
+    <string name="word_LT_125">rápido</string>
+    <string name="word_LT_126">rápido</string>
+    <string name="word_LT_127">el castillo</string>
+    <string name="word_LT_128">preguntar</string>
+    <string name="word_LT_129">caer</string>
+    <string name="word_LT_130">el cuarto de baño</string>
+    <string name="word_LT_131">el caballo</string>
+    <string name="word_LT_132">la silla</string>
+    <string name="word_LT_133">la cartera</string>
+    <string name="word_LT_134">el atuendo</string>
+    <string name="word_LT_135">los pantalones</string>
+    <string name="word_LT_136">la tapa</string>
+    <string name="word_LT_137">la boca</string>
+    <string name="word_LT_138">la mano</string>
+    <string name="word_LT_139">la cerca</string>
+    <string name="word_LT_140">el gato</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_121">la parada</string>
+    <string name="word_RT_122">conducir</string>
+    <string name="word_RT_123">la casa</string>
+    <string name="word_RT_124">allí</string>
+    <string name="word_RT_125">fondo</string>
+    <string name="word_RT_126">lejos</string>
+    <string name="word_RT_127">la sauna</string>
+    <string name="word_RT_128">coleccionar</string>
+    <string name="word_RT_129">robar</string>
+    <string name="word_RT_130">la pierna</string>
+    <string name="word_RT_131">El sonido</string>
+    <string name="word_RT_132">los lentes</string>
+    <string name="word_RT_133">el dinero</string>
+    <string name="word_RT_134">la chaqueta</string>
+    <string name="word_RT_135">el pelo</string>
+    <string name="word_RT_136">la cabeza</string>
+    <string name="word_RT_137">el caballo</string>
+    <string name="word_RT_138">el cuerpo</string>
+    <string name="word_RT_139">la parada</string>
+    <string name="word_RT_140">la mano</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_121">la gasolinera</string>
+    <string name="word_LB_122">empezar</string>
+    <string name="word_LB_123">la montaña</string>
+    <string name="word_LB_124">izquierda</string>
+    <string name="word_LB_125">aquí</string>
+    <string name="word_LB_126">elevado</string>
+    <string name="word_LB_127">la cerca</string>
+    <string name="word_LB_128">pensar</string>
+    <string name="word_LB_129">conducir</string>
+    <string name="word_LB_130">la montaña</string>
+    <string name="word_LB_131">los pantalones</string>
+    <string name="word_LB_132">el atuendo</string>
+    <string name="word_LB_133">el armario</string>
+    <string name="word_LB_134">los zapatos</string>
+    <string name="word_LB_135">la tapa</string>
+    <string name="word_LB_136">el pelo</string>
+    <string name="word_LB_137">el perro</string>
+    <string name="word_LB_138">el atuendo</string>
+    <string name="word_LB_139">la cabeza</string>
+    <string name="word_LB_140">la boca</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_121">la construcción</string>
+    <string name="word_RB_122">detener</string>
+    <string name="word_RB_123">el árbol</string>
+    <string name="word_RB_124">Entre</string>
+    <string name="word_RB_125">Entre</string>
+    <string name="word_RB_126">cerca</string>
+    <string name="word_RB_127">la tierra</string>
+    <string name="word_RB_128">saltar</string>
+    <string name="word_RB_129">lavar</string>
+    <string name="word_RB_130">el bosque</string>
+    <string name="word_RB_131">los lentes</string>
+    <string name="word_RB_132">los zapatos</string>
+    <string name="word_RB_133">la remera</string>
+    <string name="word_RB_134">los lentes</string>
+    <string name="word_RB_135">el sombrero</string>
+    <string name="word_RB_136">la boca</string>
+    <string name="word_RB_137">el sombrero</string>
+    <string name="word_RB_138">los lentes</string>
+    <string name="word_RB_139">la construcción</string>
+    <string name="word_RB_140">el mar</string>
+    <!-- END -->
+</resources>

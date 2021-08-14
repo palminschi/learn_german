@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_title_101" translatable="false">das Land</string>
+    <string name="word_title_102" translatable="false">die Stadt</string>
+    <string name="word_title_103" translatable="false">das Postamt</string>
+    <string name="word_title_104" translatable="false">der Eingang</string>
+    <string name="word_title_105" translatable="false">der Ausgang</string>
+    <string name="word_title_106" translatable="false">haupt</string>
+    <string name="word_title_107" translatable="false">der Bahnhof</string>
+    <string name="word_title_108" translatable="false">der Weg</string>
+    <string name="word_title_109" translatable="false">das Geschäft</string>
+    <string name="word_title_110" translatable="false">der Müll</string>
+    <string name="word_title_111" translatable="false">wegwerfen</string>
+    <string name="word_title_112" translatable="false">sortieren</string>
+    <string name="word_title_113" translatable="false">der Berg</string>
+    <string name="word_title_114" translatable="false">die Treppe</string>
+    <string name="word_title_115" translatable="false">hinaufgehen</string>
+    <string name="word_title_116" translatable="false">hoch</string>
+    <string name="word_title_117" translatable="false">oben</string>
+    <string name="word_title_118" translatable="false">unten</string>
+    <string name="word_title_119" translatable="false">rechts</string>
+    <string name="word_title_120" translatable="false">links</string>
+    <!-- END -->
+    <string name="word_translate_101">country</string>
+    <string name="word_translate_102">city</string>
+    <string name="word_translate_103">post office</string>
+    <string name="word_translate_104">entrance</string>
+    <string name="word_translate_105">exit</string>
+    <string name="word_translate_106">main</string>
+    <string name="word_translate_107">station</string>
+    <string name="word_translate_108">path</string>
+    <string name="word_translate_109">store</string>
+    <string name="word_translate_110">garbage</string>
+    <string name="word_translate_111">to throw</string>
+    <string name="word_translate_112">to sort</string>
+    <string name="word_translate_113">mountain</string>
+    <string name="word_translate_114">stairs</string>
+    <string name="word_translate_115">to go up</string>
+    <string name="word_translate_116">high</string>
+    <string name="word_translate_117">top</string>
+    <string name="word_translate_118">bottom</string>
+    <string name="word_translate_119">right</string>
+    <string name="word_translate_120">left</string>
+
+    <!-- PHRASE + TRANSLATE -->
+
+    <string name="phrase_101" translatable="false">Mein Land ist multinational.</string>
+    <string name="phrase_translate_101">My country is multinational.</string>
+
+    <string name="phrase_102" translatable="false">Ich wohne in einer Stadt.</string>
+    <string name="phrase_translate_102">I live in a city.</string>
+
+    <string name="phrase_103" translatable="false">Das Postamt ist geöffnet.</string>
+    <string name="phrase_translate_103">The post office is open.</string>
+
+    <string name="phrase_104" translatable="false">Eingang zum Bahnhof</string>
+    <string name="phrase_translate_104">entrance to the train station</string>
+
+    <string name="phrase_105" translatable="false">Wo ist der Ausgang?</string>
+    <string name="phrase_translate_105">Where is the exit?</string>
+
+    <string name="phrase_106" translatable="false">Hauptstraße</string>
+    <string name="phrase_translate_106">main street</string>
+
+    <string name="phrase_107" translatable="false">Der Zug ist schon im Bahnhof.</string>
+    <string name="phrase_translate_107">The train is already at the train station.</string>
+
+    <string name="phrase_108" translatable="false">noch ein langer Weg</string>
+    <string name="phrase_translate_108">still a long path</string>
+
+    <string name="phrase_109" translatable="false">Die Geschäfte sind geschlossen.</string>
+    <string name="phrase_translate_109">The stores are closed.</string>
+
+    <string name="phrase_110" translatable="false">Der Müll muss sortiert werden.</string>
+    <string name="phrase_translate_110">The garbage needs to be sorted.</string>
+
+    <string name="phrase_111" translatable="false">Ich muss meine alten Kleider wegwerfen.</string>
+    <string name="phrase_translate_111">I have to throw away my old clothes.</string>
+
+    <string name="phrase_112" translatable="false">Sortierst du den Müll?</string>
+    <string name="phrase_translate_112">Are you sorting the garbage?</string>
+
+    <string name="phrase_113" translatable="false">ein sehr hoher Berg</string>
+    <string name="phrase_translate_113">A very high mountain</string>
+
+    <string name="phrase_114" translatable="false">Ich gehe die Treppe hinauf.</string>
+    <string name="phrase_translate_114">I\'m going upstairs.</string>
+
+    <string name="phrase_115" translatable="false">Er geht Berge und Hügel hinauf.</string>
+    <string name="phrase_translate_115">He is goes up mountains and hills.</string>
+
+    <string name="phrase_116" translatable="false">Der Preis ist zu hoch.</string>
+    <string name="phrase_translate_116">The price is too high.</string>
+
+    <string name="phrase_117" translatable="false">Es ist oben</string>
+    <string name="phrase_translate_117">It\'s on the top.</string>
+
+    <string name="phrase_118" translatable="false">Unten ist eine Unterschrift</string>
+    <string name="phrase_translate_118">On the bottom, there is a signature.</string>
+
+    <string name="phrase_119" translatable="false">Dann nach rechts</string>
+    <string name="phrase_translate_119">then to the right</string>
+
+    <string name="phrase_120" translatable="false">Die Straße auf der linken Seite</string>
+    <string name="phrase_translate_120">The street on the left side.</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_101">house</string>
+    <string name="word_LT_102">tram</string>
+    <string name="word_LT_103">harbor</string>
+    <string name="word_LT_104">stairs</string>
+    <string name="word_LT_105">exit</string>
+    <string name="word_LT_106">main</string>
+    <string name="word_LT_107">bank</string>
+    <string name="word_LT_108">country</string>
+    <string name="word_LT_109">mountain</string>
+    <string name="word_LT_110">garbage</string>
+    <string name="word_LT_111">to refuel</string>
+    <string name="word_LT_112">to stand</string>
+    <string name="word_LT_113">city</string>
+    <string name="word_LT_114">train</string>
+    <string name="word_LT_115">to go</string>
+    <string name="word_LT_116">low</string>
+    <string name="word_LT_117">top</string>
+    <string name="word_LT_118">bottom</string>
+    <string name="word_LT_119">left</string>
+    <string name="word_LT_120">between</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_101">city</string>
+    <string name="word_RT_102">street</string>
+    <string name="word_RT_103">station</string>
+    <string name="word_RT_104">entrance</string>
+    <string name="word_RT_105">sunset</string>
+    <string name="word_RT_106">old</string>
+    <string name="word_RT_107">station</string>
+    <string name="word_RT_108">apartment</string>
+    <string name="word_RT_109">vegetables</string>
+    <string name="word_RT_110">sea</string>
+    <string name="word_RT_111">to throw</string>
+    <string name="word_RT_112">to sort</string>
+    <string name="word_RT_113">forest</string>
+    <string name="word_RT_114">butterfly</string>
+    <string name="word_RT_115">to fall</string>
+    <string name="word_RT_116">high</string>
+    <string name="word_RT_117">right</string>
+    <string name="word_RT_118">between</string>
+    <string name="word_RT_119">nearby</string>
+    <string name="word_RT_120">behind</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_101">castle</string>
+    <string name="word_LB_102">city</string>
+    <string name="word_LB_103">shop</string>
+    <string name="word_LB_104">sunrise</string>
+    <string name="word_LB_105">train</string>
+    <string name="word_LB_106">new</string>
+    <string name="word_LB_107">entrance</string>
+    <string name="word_LB_108">path</string>
+    <string name="word_LB_109">fruit</string>
+    <string name="word_LB_110">harbor</string>
+    <string name="word_LB_111">to go up</string>
+    <string name="word_LB_112">to collect</string>
+    <string name="word_LB_113">mountain</string>
+    <string name="word_LB_114">plane</string>
+    <string name="word_LB_115">to go up</string>
+    <string name="word_LB_116">long</string>
+    <string name="word_LB_117">bottom</string>
+    <string name="word_LB_118">fast</string>
+    <string name="word_LB_119">right</string>
+    <string name="word_LB_120">nearby</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_101">country</string>
+    <string name="word_RB_102">mountain</string>
+    <string name="word_RB_103">post office</string>
+    <string name="word_RB_104">freeway</string>
+    <string name="word_RB_105">park</string>
+    <string name="word_RB_106">first</string>
+    <string name="word_RB_107">exit</string>
+    <string name="word_RB_108">life</string>
+    <string name="word_RB_109">store</string>
+    <string name="word_RB_110">station</string>
+    <string name="word_RB_111">to fall</string>
+    <string name="word_RB_112">to wash</string>
+    <string name="word_RB_113">tree</string>
+    <string name="word_RB_114">stairs</string>
+    <string name="word_RB_115">to play</string>
+    <string name="word_RB_116">slow</string>
+    <string name="word_RB_117">left</string>
+    <string name="word_RB_118">left</string>
+    <string name="word_RB_119">far</string>
+    <string name="word_RB_120">left</string>
+    <!-- END -->
+</resources>

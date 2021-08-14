@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_translate_361">el armario</string>
+    <string name="word_translate_362">La cocina</string>
+    <string name="word_translate_363">la nevera</string>
+    <string name="word_translate_364">el estante</string>
+    <string name="word_translate_365">la cacerola</string>
+    <string name="word_translate_366">limpiar</string>
+    <string name="word_translate_367">los guisantes</string>
+    <string name="word_translate_368">los frijoles</string>
+    <string name="word_translate_369">la papa</string>
+    <string name="word_translate_370">freir</string>
+    <string name="word_translate_371">El ajo</string>
+    <string name="word_translate_372">delicioso</string>
+    <string name="word_translate_373">la cebolla</string>
+    <string name="word_translate_374">los vegetales</string>
+    <string name="word_translate_375">el limón</string>
+    <string name="word_translate_376">el helado</string>
+    <string name="word_translate_377">La crema</string>
+    <string name="word_translate_378">la pera</string>
+    <string name="word_translate_379">el fruto</string>
+    <string name="word_translate_380">la buena suerte</string>
+    <!-- END -->
+
+    <!-- PHRASE -->
+    <string name="phrase_translate_361">Compré un armario nuevo.</string>
+    <string name="phrase_translate_362">Ella está trabajando en la cocina.</string>
+    <string name="phrase_translate_363">La comida está en el frigorífico.</string>
+    <string name="phrase_translate_364">Hay 3 estantes en el armario.</string>
+    <string name="phrase_translate_365">La sopa se hierve en una cacerola.</string>
+    <string name="phrase_translate_366">Estoy limpiando el piso.</string>
+    <string name="phrase_translate_367">No como guisantes.</string>
+    <string name="phrase_translate_368">Ella cocina algo con frijoles.</string>
+    <string name="phrase_translate_369">Comeré patatas y carne.</string>
+    <string name="phrase_translate_370">Estoy friendo carne.</string>
+    <string name="phrase_translate_371">Yo no como ajo.</string>
+    <string name="phrase_translate_372">La sopa es muy deliciosa.</string>
+    <string name="phrase_translate_373">Olvidé comprar cebollas.</string>
+    <string name="phrase_translate_374">Las verduras son saludables.</string>
+    <string name="phrase_translate_375">Té con limón.</string>
+    <string name="phrase_translate_376">El niño está comiendo helado.</string>
+    <string name="phrase_translate_377">Me gusta el café con crema.</string>
+    <string name="phrase_translate_378">Bebo jugo de pera.</string>
+    <string name="phrase_translate_379">Come muchas frutas.</string>
+    <string name="phrase_translate_380">Les deseo buena suerte.</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_361">el armario</string>
+    <string name="word_LT_362">La cocina</string>
+    <string name="word_LT_363">la sopa</string>
+    <string name="word_LT_364">el estante</string>
+    <string name="word_LT_365">la tienda</string>
+    <string name="word_LT_366">limpiar</string>
+    <string name="word_LT_367">La servilleta</string>
+    <string name="word_LT_368">la cena</string>
+    <string name="word_LT_369">el desayuno</string>
+    <string name="word_LT_370">dar</string>
+    <string name="word_LT_371">el cuchillo</string>
+    <string name="word_LT_372">pequeño</string>
+    <string name="word_LT_373">la cuchara</string>
+    <string name="word_LT_374">el hongo</string>
+    <string name="word_LT_375">el restaurante</string>
+    <string name="word_LT_376">el helado</string>
+    <string name="word_LT_377">la casa</string>
+    <string name="word_LT_378">la pera</string>
+    <string name="word_LT_379">los alimentos</string>
+    <string name="word_LT_380">la estrella</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_361">El camarero</string>
+    <string name="word_RT_362">Los fideos</string>
+    <string name="word_RT_363">La tetera</string>
+    <string name="word_RT_364">la botella</string>
+    <string name="word_RT_365">Los fideos</string>
+    <string name="word_RT_366">cantar</string>
+    <string name="word_RT_367">los guisantes</string>
+    <string name="word_RT_368">el almuerzo</string>
+    <string name="word_RT_369">la papa</string>
+    <string name="word_RT_370">limpiar</string>
+    <string name="word_RT_371">El ajo</string>
+    <string name="word_RT_372">grande</string>
+    <string name="word_RT_373">El tenedor</string>
+    <string name="word_RT_374">la botella</string>
+    <string name="word_RT_375">el sótano</string>
+    <string name="word_RT_376">El camarero</string>
+    <string name="word_RT_377">La crema</string>
+    <string name="word_RT_378">la salchicha</string>
+    <string name="word_RT_379">La servilleta</string>
+    <string name="word_RT_380">la buena suerte</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_361">la música</string>
+    <string name="word_LB_362">la bebida</string>
+    <string name="word_LB_363">la factura</string>
+    <string name="word_LB_364">la cuchara</string>
+    <string name="word_LB_365">la sopa</string>
+    <string name="word_LB_366">cocinar</string>
+    <string name="word_LB_367">los alimentos</string>
+    <string name="word_LB_368">los frijoles</string>
+    <string name="word_LB_369">La tetera</string>
+    <string name="word_LB_370">freir</string>
+    <string name="word_LB_371">los dulces</string>
+    <string name="word_LB_372">delicioso</string>
+    <string name="word_LB_373">la tienda</string>
+    <string name="word_LB_374">el avión</string>
+    <string name="word_LB_375">la papilla</string>
+    <string name="word_LB_376">la flor</string>
+    <string name="word_LB_377">la zanahoria</string>
+    <string name="word_LB_378">El tenedor</string>
+    <string name="word_LB_379">el cuchillo</string>
+    <string name="word_LB_380">la fuerza</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_361">el avión</string>
+    <string name="word_RB_362">el té</string>
+    <string name="word_RB_363">la nevera</string>
+    <string name="word_RB_364">la harina</string>
+    <string name="word_RB_365">la cacerola</string>
+    <string name="word_RB_366">dar</string>
+    <string name="word_RB_367">el sabor</string>
+    <string name="word_RB_368">la dieta</string>
+    <string name="word_RB_369">el almuerzo</string>
+    <string name="word_RB_370">cocinar</string>
+    <string name="word_RB_371">la cuchara</string>
+    <string name="word_RB_372">dulce</string>
+    <string name="word_RB_373">la cebolla</string>
+    <string name="word_RB_374">los vegetales</string>
+    <string name="word_RB_375">el limón</string>
+    <string name="word_RB_376">La tetera</string>
+    <string name="word_RB_377">la gente</string>
+    <string name="word_RB_378">el plato</string>
+    <string name="word_RB_379">el fruto</string>
+    <string name="word_RB_380">el chile</string>
+    <!-- END -->
+</resources>

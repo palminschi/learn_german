@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_translate_581">el melon</string>
+    <string name="word_translate_582">la sandia</string>
+    <string name="word_translate_583">mejor</string>
+    <string name="word_translate_584">más</string>
+    <string name="word_translate_585">llamar</string>
+    <string name="word_translate_586">llamar</string>
+    <string name="word_translate_587">la miel</string>
+    <string name="word_translate_588">la abeja</string>
+    <string name="word_translate_589">el azúcar</string>
+    <string name="word_translate_590">el guisante</string>
+    <string name="word_translate_591">el frijol</string>
+    <string name="word_translate_592">anteayer</string>
+    <string name="word_translate_593">pasado mañana</string>
+    <string name="word_translate_594">el tiempo</string>
+    <string name="word_translate_595">la primavera</string>
+    <string name="word_translate_596">el otoño</string>
+    <string name="word_translate_597">el lápiz</string>
+    <string name="word_translate_598">la carta</string>
+    <string name="word_translate_599">el diccionario</string>
+    <string name="word_translate_600">el fin</string>
+    <!-- END -->
+
+    <!-- PHRASE -->
+    <string name="phrase_translate_581">El melón crece en el jardín.</string>
+    <string name="phrase_translate_582">Compré una sandía grande</string>
+    <string name="phrase_translate_583">Tu sabes mejor</string>
+    <string name="phrase_translate_584">Lee más que yo.</string>
+    <string name="phrase_translate_585">Tengo que llamarlo.</string>
+    <string name="phrase_translate_586">Te llamé ayer.</string>
+    <string name="phrase_translate_587">Ich trinke Tee mit Honig.</string>
+    <string name="phrase_translate_588">Le tengo miedo a las abejas.</string>
+    <string name="phrase_translate_589">Bebo café sin azúcar.</string>
+    <string name="phrase_translate_590">No como guisantes.</string>
+    <string name="phrase_translate_591">Ella cocina algo con frijoles.</string>
+    <string name="phrase_translate_592">Estuve allí anteayer.</string>
+    <string name="phrase_translate_593">Nos vemos pasado mañana.</string>
+    <string name="phrase_translate_594">Esta es la segunda vez que te llamo</string>
+    <string name="phrase_translate_595">Todo es hermoso en primavera.</string>
+    <string name="phrase_translate_596">En otoño llueve a menudo.</string>
+    <string name="phrase_translate_597">El lápiz está roto.</string>
+    <string name="phrase_translate_598">¿Cuántas letras tiene tu nombre?</string>
+    <string name="phrase_translate_599">No he encontrado la palabra en el diccionario</string>
+    <string name="phrase_translate_600">el fin</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_581">el hongo</string>
+    <string name="word_LT_582">los alimentos</string>
+    <string name="word_LT_583">sabroso</string>
+    <string name="word_LT_584">rápido</string>
+    <string name="word_LT_585">pagar</string>
+    <string name="word_LT_586">tomar</string>
+    <string name="word_LT_587">La leche</string>
+    <string name="word_LT_588">el árbol</string>
+    <string name="word_LT_589">la sal</string>
+    <string name="word_LT_590">La servilleta</string>
+    <string name="word_LT_591">la cena</string>
+    <string name="word_LT_592">anteayer</string>
+    <string name="word_LT_593">hoy dia</string>
+    <string name="word_LT_594">el paso</string>
+    <string name="word_LT_595">el bosque</string>
+    <string name="word_LT_596">la nube</string>
+    <string name="word_LT_597">el juguete</string>
+    <string name="word_LT_598">el número</string>
+    <string name="word_LT_599">la ciudad</string>
+    <string name="word_LT_600">el fin</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_581">el melon</string>
+    <string name="word_RT_582">la sandia</string>
+    <string name="word_RT_583">enclenque</string>
+    <string name="word_RT_584">frío</string>
+    <string name="word_RT_585">saltar</string>
+    <string name="word_RT_586">llamar</string>
+    <string name="word_RT_587">la miel</string>
+    <string name="word_RT_588">el pájaro</string>
+    <string name="word_RT_589">el café</string>
+    <string name="word_RT_590">el guisante</string>
+    <string name="word_RT_591">el almuerzo</string>
+    <string name="word_RT_592">mañana</string>
+    <string name="word_RT_593">pasado mañana</string>
+    <string name="word_RT_594">la transferencia</string>
+    <string name="word_RT_595">el frío</string>
+    <string name="word_RT_596">el otoño</string>
+    <string name="word_RT_597">el lápiz</string>
+    <string name="word_RT_598">el manual</string>
+    <string name="word_RT_599">la carta</string>
+    <string name="word_RT_600">el fin</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_581">la salchicha</string>
+    <string name="word_LB_582">el cuchillo</string>
+    <string name="word_LB_583">grande</string>
+    <string name="word_LB_584">más</string>
+    <string name="word_LB_585">trabajar</string>
+    <string name="word_LB_586">quedarse</string>
+    <string name="word_LB_587">La tetera</string>
+    <string name="word_LB_588">la flor</string>
+    <string name="word_LB_589">el azúcar</string>
+    <string name="word_LB_590">los alimentos</string>
+    <string name="word_LB_591">el frijol</string>
+    <string name="word_LB_592">hoy dia</string>
+    <string name="word_LB_593">el dia de ayer</string>
+    <string name="word_LB_594">el caso</string>
+    <string name="word_LB_595">la temporada</string>
+    <string name="word_LB_596">la primavera</string>
+    <string name="word_LB_597">la guitarra</string>
+    <string name="word_LB_598">la carta</string>
+    <string name="word_LB_599">el libro</string>
+    <string name="word_LB_600">el fin</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_581">los vegetales</string>
+    <string name="word_RB_582">el fruto</string>
+    <string name="word_RB_583">mejor</string>
+    <string name="word_RB_584">enfermo</string>
+    <string name="word_RB_585">llamar</string>
+    <string name="word_RB_586">correr</string>
+    <string name="word_RB_587">la flor</string>
+    <string name="word_RB_588">la abeja</string>
+    <string name="word_RB_589">el jugo</string>
+    <string name="word_RB_590">el sabor</string>
+    <string name="word_RB_591">la dieta</string>
+    <string name="word_RB_592">Nunca</string>
+    <string name="word_RB_593">anteayer</string>
+    <string name="word_RB_594">el tiempo</string>
+    <string name="word_RB_595">la primavera</string>
+    <string name="word_RB_596">la escarcha</string>
+    <string name="word_RB_597">el bolígrafo</string>
+    <string name="word_RB_598">la palabra</string>
+    <string name="word_RB_599">el diccionario</string>
+    <string name="word_RB_600">el fin</string>
+    <!-- END -->
+</resources>

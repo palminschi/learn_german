@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_translate_241">el cocinero</string>
+    <string name="word_translate_242">Los fideos</string>
+    <string name="word_translate_243">la sopa</string>
+    <string name="word_translate_244">la harina</string>
+    <string name="word_translate_245">El delicioso</string>
+    <string name="word_translate_246">cocinar</string>
+    <string name="word_translate_247">el sabor</string>
+    <string name="word_translate_248">la dieta</string>
+    <string name="word_translate_249">el postre</string>
+    <string name="word_translate_250">el helado</string>
+    <string name="word_translate_251">los dulces</string>
+    <string name="word_translate_252">la salchicha</string>
+    <string name="word_translate_253">la chuleta</string>
+    <string name="word_translate_254">el hongo</string>
+    <string name="word_translate_255">la papilla</string>
+    <string name="word_translate_256">La leche</string>
+    <string name="word_translate_257">la zanahoria</string>
+    <string name="word_translate_258">dulce</string>
+    <string name="word_translate_259">picante</string>
+    <string name="word_translate_260">el chile</string>
+    <!-- END -->
+
+    <!-- PHRASE -->
+    <string name="phrase_translate_241">Trabaja como cocinero.</string>
+    <string name="phrase_translate_242">He cocinado fideos.</string>
+    <string name="phrase_translate_243">La sopa está deliciosa.</string>
+    <string name="phrase_translate_244">Tengo que comprar harina.</string>
+    <string name="phrase_translate_245">Ella cocina muy deliciosa.</string>
+    <string name="phrase_translate_246">No me gusta cocinar.</string>
+    <string name="phrase_translate_247">¿Que sabor?</string>
+    <string name="phrase_translate_248">Estoy a dieta.</string>
+    <string name="phrase_translate_249">¿Que hay de postre?</string>
+    <string name="phrase_translate_250">Estoy comiendo helado.</string>
+    <string name="phrase_translate_251">A los niños les encantan los dulces.</string>
+    <string name="phrase_translate_252">Compré una salchicha.</string>
+    <string name="phrase_translate_253">Pasta con chuleta</string>
+    <string name="phrase_translate_254">Buscamos hongos.</string>
+    <string name="phrase_translate_255">Como papilla por la mañana.</string>
+    <string name="phrase_translate_256">Café con leche.</string>
+    <string name="phrase_translate_257">Las zanahorias están riquísimas.</string>
+    <string name="phrase_translate_258">El helado es demasiado dulce.</string>
+    <string name="phrase_translate_259">La pizza estaba picante.</string>
+    <string name="phrase_translate_260">Sin pimienta, por favor.</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_241">el cocinero</string>
+    <string name="word_LT_242">el agua</string>
+    <string name="word_LT_243">la sopa</string>
+    <string name="word_LT_244">La servilleta</string>
+    <string name="word_LT_245">El delicioso</string>
+    <string name="word_LT_246">jugar</string>
+    <string name="word_LT_247">La servilleta</string>
+    <string name="word_LT_248">la cena</string>
+    <string name="word_LT_249">el desayuno</string>
+    <string name="word_LT_250">los alimentos</string>
+    <string name="word_LT_251">el cuchillo</string>
+    <string name="word_LT_252">El camarero</string>
+    <string name="word_LT_253">la cuchara</string>
+    <string name="word_LT_254">el hongo</string>
+    <string name="word_LT_255">el restaurante</string>
+    <string name="word_LT_256">La leche</string>
+    <string name="word_LT_257">la casa</string>
+    <string name="word_LT_258">pequeño</string>
+    <string name="word_LT_259">fuerte</string>
+    <string name="word_LT_260">la estrella</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_241">El camarero</string>
+    <string name="word_RT_242">Los fideos</string>
+    <string name="word_RT_243">La tetera</string>
+    <string name="word_RT_244">la botella</string>
+    <string name="word_RT_245">el débil</string>
+    <string name="word_RT_246">cantar</string>
+    <string name="word_RT_247">el plato</string>
+    <string name="word_RT_248">el almuerzo</string>
+    <string name="word_RT_249">el postre</string>
+    <string name="word_RT_250">La servilleta</string>
+    <string name="word_RT_251">la boca</string>
+    <string name="word_RT_252">la salchicha</string>
+    <string name="word_RT_253">El tenedor</string>
+    <string name="word_RT_254">la botella</string>
+    <string name="word_RT_255">el sótano</string>
+    <string name="word_RT_256">El camarero</string>
+    <string name="word_RT_257">el dinero</string>
+    <string name="word_RT_258">grande</string>
+    <string name="word_RT_259">picante</string>
+    <string name="word_RT_260">la punta</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_241">la música</string>
+    <string name="word_LB_242">la bebida</string>
+    <string name="word_LB_243">la factura</string>
+    <string name="word_LB_244">la cuchara</string>
+    <string name="word_LB_245">el gran</string>
+    <string name="word_LB_246">cocinar</string>
+    <string name="word_LB_247">los alimentos</string>
+    <string name="word_LB_248">la noche</string>
+    <string name="word_LB_249">La tetera</string>
+    <string name="word_LB_250">el cuchillo</string>
+    <string name="word_LB_251">los dulces</string>
+    <string name="word_LB_252">El tenedor</string>
+    <string name="word_LB_253">la tienda</string>
+    <string name="word_LB_254">el avión</string>
+    <string name="word_LB_255">la papilla</string>
+    <string name="word_LB_256">la flor</string>
+    <string name="word_LB_257">la zanahoria</string>
+    <string name="word_LB_258">rápido</string>
+    <string name="word_LB_259">grande</string>
+    <string name="word_LB_260">la fuerza</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_241">el avión</string>
+    <string name="word_RB_242">el té</string>
+    <string name="word_RB_243">el atuendo</string>
+    <string name="word_RB_244">la harina</string>
+    <string name="word_RB_245">el lento</string>
+    <string name="word_RB_246">dar</string>
+    <string name="word_RB_247">el sabor</string>
+    <string name="word_RB_248">la dieta</string>
+    <string name="word_RB_249">el almuerzo</string>
+    <string name="word_RB_250">el helado</string>
+    <string name="word_RB_251">la cuchara</string>
+    <string name="word_RB_252">el sabor</string>
+    <string name="word_RB_253">la chuleta</string>
+    <string name="word_RB_254">la foto</string>
+    <string name="word_RB_255">el dinero</string>
+    <string name="word_RB_256">La tetera</string>
+    <string name="word_RB_257">la gente</string>
+    <string name="word_RB_258">dulce</string>
+    <string name="word_RB_259">lento</string>
+    <string name="word_RB_260">el chile</string>
+    <!-- END -->
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE -->
+    <string name="word_translate_381">el vestido</string>
+    <string name="word_translate_382">la corbata</string>
+    <string name="word_translate_383">el guante</string>
+    <string name="word_translate_384">poner</string>
+    <string name="word_translate_385">despegar</string>
+    <string name="word_translate_386">el cinturón</string>
+    <string name="word_translate_387">la bufanda</string>
+    <string name="word_translate_388">El brazalete</string>
+    <string name="word_translate_389">La cadena</string>
+    <string name="word_translate_390">dorado</string>
+    <string name="word_translate_391">la camisa</string>
+    <string name="word_translate_392">el suéter</string>
+    <string name="word_translate_393">la falda</string>
+    <string name="word_translate_394">los shorts</string>
+    <string name="word_translate_395">ordenar</string>
+    <string name="word_translate_396">Los vaqueros</string>
+    <string name="word_translate_397">el anillo</string>
+    <string name="word_translate_398">el pendiente</string>
+    <string name="word_translate_399">la oreja</string>
+    <string name="word_translate_400">la cremallera</string>
+    <!-- END -->
+
+    <!-- PHRASE -->
+    <string name="phrase_translate_381">Ella tiene un hermoso vestido.</string>
+    <string name="phrase_translate_382">La corbata es demasiado larga para él.</string>
+    <string name="phrase_translate_383">En invierno hace frío sin guantes.</string>
+    <string name="phrase_translate_384">Me puse la chaqueta.</string>
+    <string name="phrase_translate_385">Me quito la chaqueta.</string>
+    <string name="phrase_translate_386">Compré un cinturón.</string>
+    <string name="phrase_translate_387">Olvidó su bufanda.</string>
+    <string name="phrase_translate_388">No llevo brazalete.</string>
+    <string name="phrase_translate_389">Esta cadena está hecha de plata.</string>
+    <string name="phrase_translate_390">Le dio un anillo de oro.</string>
+    <string name="phrase_translate_391">Hoy me puse una camiseta.</string>
+    <string name="phrase_translate_392">Hace más calor en el suéter.</string>
+    <string name="phrase_translate_393">En verano llevo falda.</string>
+    <string name="phrase_translate_394">Llevo pantalones cortos de jean.</string>
+    <string name="phrase_translate_395">Pedí ropa nueva.</string>
+    <string name="phrase_translate_396">Tienes unos vaqueros bonitos.</string>
+    <string name="phrase_translate_397">No llevo anillos.</string>
+    <string name="phrase_translate_398">Perdió un pendiente.</string>
+    <string name="phrase_translate_399">Tiene orejas grandes.</string>
+    <string name="phrase_translate_400">Chaqueta con cremallera</string>
+    <!-- END -->
+
+
+    <!-- WORD_LT -->
+    <string name="word_LT_381">la silla</string>
+    <string name="word_LT_382">la cartera</string>
+    <string name="word_LT_383">el guante</string>
+    <string name="word_LT_384">poner</string>
+    <string name="word_LT_385">jugar</string>
+    <string name="word_LT_386">los pantalones</string>
+    <string name="word_LT_387">la tapa</string>
+    <string name="word_LT_388">la boca</string>
+    <string name="word_LT_389">la mano</string>
+    <string name="word_LT_390">Rico</string>
+    <string name="word_LT_391">la cerca</string>
+    <string name="word_LT_392">el gato</string>
+    <string name="word_LT_393">Los vaqueros</string>
+    <string name="word_LT_394">los pantalones</string>
+    <string name="word_LT_395">ordenar</string>
+    <string name="word_LT_396">el atuendo</string>
+    <string name="word_LT_397">El brazalete</string>
+    <string name="word_LT_398">la remera</string>
+    <string name="word_LT_399">la boca</string>
+    <string name="word_LT_400">la cremallera</string>
+    <!-- END -->
+
+    <!-- WORD_RT -->
+    <string name="word_RT_381">los lentes</string>
+    <string name="word_RT_382">el dinero</string>
+    <string name="word_RT_383">la chaqueta</string>
+    <string name="word_RT_384">reír</string>
+    <string name="word_RT_385">para poner en</string>
+    <string name="word_RT_386">el pelo</string>
+    <string name="word_RT_387">la cabeza</string>
+    <string name="word_RT_388">el caballo</string>
+    <string name="word_RT_389">La cadena</string>
+    <string name="word_RT_390">dorado</string>
+    <string name="word_RT_391">la camisa</string>
+    <string name="word_RT_392">el suéter</string>
+    <string name="word_RT_393">el vestido</string>
+    <string name="word_RT_394">la falda</string>
+    <string name="word_RT_395">ganar</string>
+    <string name="word_RT_396">Los vaqueros</string>
+    <string name="word_RT_397">la chaqueta</string>
+    <string name="word_RT_398">La cadena</string>
+    <string name="word_RT_399">la oreja</string>
+    <string name="word_RT_400">la corbata</string>
+    <!-- END -->
+
+    <!-- WORD_LB -->
+    <string name="word_LB_381">el atuendo</string>
+    <string name="word_LB_382">la corbata</string>
+    <string name="word_LB_383">los zapatos</string>
+    <string name="word_LB_384">cantar</string>
+    <string name="word_LB_385">despegar</string>
+    <string name="word_LB_386">la tapa</string>
+    <string name="word_LB_387">el pelo</string>
+    <string name="word_LB_388">El brazalete</string>
+    <string name="word_LB_389">el atuendo</string>
+    <string name="word_LB_390">luz</string>
+    <string name="word_LB_391">la cabeza</string>
+    <string name="word_LB_392">la boca</string>
+    <string name="word_LB_393">la corbata</string>
+    <string name="word_LB_394">los shorts</string>
+    <string name="word_LB_395">vender</string>
+    <string name="word_LB_396">los zapatos</string>
+    <string name="word_LB_397">los guantes</string>
+    <string name="word_LB_398">el pendiente</string>
+    <string name="word_LB_399">la nariz</string>
+    <string name="word_LB_400">los zapatos</string>
+    <!-- END -->
+
+    <!-- WORD_RB -->
+    <string name="word_RB_381">el vestido</string>
+    <string name="word_RB_382">la remera</string>
+    <string name="word_RB_383">los lentes</string>
+    <string name="word_RB_384">descansar</string>
+    <string name="word_RB_385">preguntar</string>
+    <string name="word_RB_386">el cinturón</string>
+    <string name="word_RB_387">la bufanda</string>
+    <string name="word_RB_388">el sombrero</string>
+    <string name="word_RB_389">los lentes</string>
+    <string name="word_RB_390">oscuro</string>
+    <string name="word_RB_391">la construcción</string>
+    <string name="word_RB_392">el mar</string>
+    <string name="word_RB_393">la falda</string>
+    <string name="word_RB_394">el suéter</string>
+    <string name="word_RB_395">pagar</string>
+    <string name="word_RB_396">los lentes</string>
+    <string name="word_RB_397">el anillo</string>
+    <string name="word_RB_398">El brazalete</string>
+    <string name="word_RB_399">la mano</string>
+    <string name="word_RB_400">Los vaqueros</string>
+    <!-- END -->
+</resources>
