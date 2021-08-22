@@ -1,9 +1,5 @@
 package com.palmdev.learn_german;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -12,6 +8,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
@@ -22,8 +22,6 @@ import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 import com.google.android.ump.ConsentForm;
 import com.google.android.ump.ConsentInformation;
 import com.google.android.ump.ConsentRequestParameters;
@@ -31,8 +29,6 @@ import com.google.android.ump.FormError;
 import com.google.android.ump.UserMessagingPlatform;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.messaging.FirebaseMessaging;
-import com.palmdev.learn_german.Levels.Level2;
-import com.palmdev.learn_german.Levels_Start.Level2_Start;
 
 import java.util.Locale;
 

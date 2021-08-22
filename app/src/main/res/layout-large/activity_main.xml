@@ -70,7 +70,21 @@
                 app:layout_constraintStart_toStartOf="@id/img_words_background"
                 app:layout_constraintEnd_toEndOf="@id/img_words_background"
                 />
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:id="@+id/main_flag"
+                android:src="@drawable/flag_german_2"
+                android:layout_marginTop="75dp"
+                android:layout_marginBottom="6dp"
+                app:layout_constraintTop_toTopOf="@id/words_num"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/header_text"
+                />
             <TextView
+                android:id="@+id/header_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"

@@ -2,7 +2,7 @@
 <resources>
     <!-- TITLE -->
     <string name="word_translate_161">el camarero</string>
-    <string name="word_translate_162">la punta</string>
+    <string name="word_translate_162">la propina</string>
     <string name="word_translate_163">la factura</string>
     <string name="word_translate_164">el descuento</string>
     <string name="word_translate_165">el efectivo</string>
@@ -25,7 +25,7 @@
 
     <!-- PHRASE -->
     <string name="phrase_translate_161">Yo trabajo como camarero.</string>
-    <string name="phrase_translate_162">Dejó una propina.</string>
+    <string name="phrase_translate_162">Ha dejado una propina.</string>
     <string name="phrase_translate_163">¡La cuenta, por favor!</string>
     <string name="phrase_translate_164">Muchos descuentos hoy.</string>
     <string name="phrase_translate_165">Solo tengo efectivo.</string>
@@ -72,7 +72,7 @@
 
     <!-- WORD_RT -->
     <string name="word_RT_161">el camarero</string>
-    <string name="word_RT_162">la punta</string>
+    <string name="word_RT_162">la propina</string>
     <string name="word_RT_163">La tetera</string>
     <string name="word_RT_164">la botella</string>
     <string name="word_RT_165">la música</string>

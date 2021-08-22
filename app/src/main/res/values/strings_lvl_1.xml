@@ -49,7 +49,7 @@
     <string name="phrase_translate_example" translatable="false">Это кошка или <b>собака</b>?</string>
 
     <string name="phrase_1" translatable="false">Ich <b>lerne</b> Deutsch.</string>
-    <string name="phrase_translate_1">I am <b>learning</b> German.</string>
+    <string name="phrase_translate_1">I <b>learn</b> German.</string>
 
     <string name="phrase_2" translatable="false">Er spricht zwei <b>Sprachen</b>.</string>
     <string name="phrase_translate_2">He speaks two <b>languages</b>.</string>

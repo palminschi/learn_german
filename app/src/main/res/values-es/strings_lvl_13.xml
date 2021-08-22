@@ -5,7 +5,7 @@
     <string name="word_translate_242">Los fideos</string>
     <string name="word_translate_243">la sopa</string>
     <string name="word_translate_244">la harina</string>
-    <string name="word_translate_245">El delicioso</string>
+    <string name="word_translate_245">sabroso</string>
     <string name="word_translate_246">cocinar</string>
     <string name="word_translate_247">el sabor</string>
     <string name="word_translate_248">la dieta</string>
@@ -52,7 +52,7 @@
     <string name="word_LT_242">el agua</string>
     <string name="word_LT_243">la sopa</string>
     <string name="word_LT_244">La servilleta</string>
-    <string name="word_LT_245">El delicioso</string>
+    <string name="word_LT_245">sabroso</string>
     <string name="word_LT_246">jugar</string>
     <string name="word_LT_247">La servilleta</string>
     <string name="word_LT_248">la cena</string>
@@ -75,7 +75,7 @@
     <string name="word_RT_242">Los fideos</string>
     <string name="word_RT_243">La tetera</string>
     <string name="word_RT_244">la botella</string>
-    <string name="word_RT_245">el débil</string>
+    <string name="word_RT_245">débil</string>
     <string name="word_RT_246">cantar</string>
     <string name="word_RT_247">el plato</string>
     <string name="word_RT_248">el almuerzo</string>
@@ -98,7 +98,7 @@
     <string name="word_LB_242">la bebida</string>
     <string name="word_LB_243">la factura</string>
     <string name="word_LB_244">la cuchara</string>
-    <string name="word_LB_245">el gran</string>
+    <string name="word_LB_245">gran</string>
     <string name="word_LB_246">cocinar</string>
     <string name="word_LB_247">los alimentos</string>
     <string name="word_LB_248">la noche</string>
@@ -121,7 +121,7 @@
     <string name="word_RB_242">el té</string>
     <string name="word_RB_243">el atuendo</string>
     <string name="word_RB_244">la harina</string>
-    <string name="word_RB_245">el lento</string>
+    <string name="word_RB_245">lento</string>
     <string name="word_RB_246">dar</string>
     <string name="word_RB_247">el sabor</string>
     <string name="word_RB_248">la dieta</string>

@@ -7,8 +7,8 @@
     <string name="word_translate_204">el bosque</string>
     <string name="word_translate_205">el parque</string>
     <string name="word_translate_206">los patines</string>
-    <string name="word_translate_207">El patinador</string>
-    <string name="word_translate_208">el skate</string>
+    <string name="word_translate_207">el monopatín</string>
+    <string name="word_translate_208">el patín</string>
     <string name="word_translate_209">el ocio</string>
     <string name="word_translate_210">el fin de semana</string>
     <string name="word_translate_211">volar</string>
@@ -29,7 +29,7 @@
     <string name="phrase_translate_204">Voy por el bosque.</string>
     <string name="phrase_translate_205">Hermoso parque.</string>
     <string name="phrase_translate_206">Mi hijo tiene patines.</string>
-    <string name="phrase_translate_207">Voy en patineta.</string>
+    <string name="phrase_translate_207">Yo voy en mi monopatín.</string>
     <string name="phrase_translate_208">Patinaje sobre hielo</string>
     <string name="phrase_translate_209">Ahora tengo tiempo libre.</string>
     <string name="phrase_translate_210">¿Dónde vas los fines de semana?</string>
@@ -53,7 +53,7 @@
     <string name="word_LT_204">el mar</string>
     <string name="word_LT_205">el parque</string>
     <string name="word_LT_206">la isla</string>
-    <string name="word_LT_207">El patinador</string>
+    <string name="word_LT_207">el monopatín</string>
     <string name="word_LT_208">el juguete</string>
     <string name="word_LT_209">el avión</string>
     <string name="word_LT_210">el mes</string>
@@ -123,7 +123,7 @@
     <string name="word_RB_205">la música</string>
     <string name="word_RB_206">el juego</string>
     <string name="word_RB_207">la alegria</string>
-    <string name="word_RB_208">el skate</string>
+    <string name="word_RB_208">el patín</string>
     <string name="word_RB_209">el tiempo</string>
     <string name="word_RB_210">el fin de semana</string>
     <string name="word_RB_211">trabajar</string>
