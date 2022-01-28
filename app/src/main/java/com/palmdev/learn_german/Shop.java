@@ -158,25 +158,21 @@ public class Shop extends AppCompatActivity implements PurchasesUpdatedListener 
         SkuDetailsParams.Builder params = SkuDetailsParams.newBuilder();
         params.setSkusList(skuList).setType(INAPP);
         billingClient.querySkuDetailsAsync(params.build(),
-                new SkuDetailsResponseListener() {
-                    @Override
-                    public void onSkuDetailsResponse(BillingResult billingResult,
-                                                     List<SkuDetails> skuDetailsList) {
-                        if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
-                            if (skuDetailsList != null && skuDetailsList.size() > 0) {
-                                BillingFlowParams flowParams = BillingFlowParams.newBuilder()
-                                        .setSkuDetails(skuDetailsList.get(0))
-                                        .build();
-                                billingClient.launchBillingFlow(Shop.this, flowParams);
-                            }
-                            else{
-                                //try to add item/product id "purchase" inside managed product in google play console
-                                Toast.makeText(getApplicationContext(),"Purchase Item not Found",Toast.LENGTH_SHORT).show();
-                            }
-                        } else {
-                            Toast.makeText(getApplicationContext(),
-                                    " Error "+billingResult.getDebugMessage(), Toast.LENGTH_SHORT).show();
+                (billingResult, skuDetailsList) -> {
+                    if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
+                        if (skuDetailsList != null && skuDetailsList.size() > 0) {
+                            BillingFlowParams flowParams = BillingFlowParams.newBuilder()
+                                    .setSkuDetails(skuDetailsList.get(0))
+                                    .build();
+                            billingClient.launchBillingFlow(Shop.this, flowParams);
                         }
+                        else{
+                            //try to add item/product id "purchase" inside managed product in google play console
+                            Toast.makeText(getApplicationContext(),"Purchase Item not Found",Toast.LENGTH_SHORT).show();
+                        }
+                    } else {
+                        Toast.makeText(getApplicationContext(),
+                                " Error "+billingResult.getDebugMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
     }

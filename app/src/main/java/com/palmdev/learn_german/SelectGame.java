@@ -3,6 +3,7 @@ package com.palmdev.learn_german;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -222,6 +223,10 @@ public class SelectGame extends AppCompatActivity {
     }
 
     public void onClickMore(View view) {
-        Toast.makeText(this,getString(R.string.more_onclick),Toast.LENGTH_SHORT).show();
+        try {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://developer?id=DevPalm")));
+        } catch (android.content.ActivityNotFoundException anfe) {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/developer?id=DevPalm")));
+        }
     }
 }

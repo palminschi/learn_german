@@ -3,6 +3,7 @@ package com.palmdev.learn_german;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -513,7 +514,10 @@ public class SelectDayActivity extends AppCompatActivity {
     }
 
     public void selectDayEnd(View view) {
-        Toast selectEnd = Toast.makeText(getBaseContext(), R.string.selectDayEnd, Toast.LENGTH_LONG);
-        selectEnd.show();
+        try {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://developer?id=DevPalm")));
+        } catch (android.content.ActivityNotFoundException anfe) {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/developer?id=DevPalm")));
+        }
     }
 }

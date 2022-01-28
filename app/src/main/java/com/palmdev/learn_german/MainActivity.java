@@ -112,6 +112,8 @@ public class MainActivity extends AppCompatActivity {
 
                     }
                 });
+
+
         // Push
         FirebaseMessaging.getInstance().getToken()
                 .addOnCompleteListener(task -> {
