@@ -16,11 +16,18 @@
         <entry key="..\:/Projects/Learn_German/app/src/main/res/layout/universal.xml" value="0.6615925058548009" />
         <entry key="..\:/Projects/learn_german/app/src/main/res/drawable/style_sound_toggle.xml" value="0.465625" />
         <entry key="..\:/Projects/learn_german/app/src/main/res/layout-large/activity_main.xml" value="0.2879999900124293" />
+        <entry key="..\:/Projects/learn_german/app/src/main/res/layout-large/end_level.xml" value="0.15709090364314326" />
+        <entry key="..\:/Projects/learn_german/app/src/main/res/layout-large/repeat.xml" value="0.13963635879390512" />
+        <entry key="..\:/Projects/learn_german/app/src/main/res/layout-large/select_day.xml" value="0.13090908636928605" />
         <entry key="..\:/Projects/learn_german/app/src/main/res/layout-large/select_lang.xml" value="0.2879999900124293" />
+        <entry key="..\:/Projects/learn_german/app/src/main/res/layout-large/start_level.xml" value="0.24027362120564344" />
         <entry key="..\:/Projects/learn_german/app/src/main/res/layout/activity_main.xml" value="0.21818181061547676" />
         <entry key="..\:/Projects/learn_german/app/src/main/res/layout/dialog_end.xml" value="0.2942708333333333" />
-        <entry key="..\:/Projects/learn_german/app/src/main/res/layout/repeat.xml" value="0.2942708333333333" />
+        <entry key="..\:/Projects/learn_german/app/src/main/res/layout/end_level.xml" value="0.2601851851851852" />
+        <entry key="..\:/Projects/learn_german/app/src/main/res/layout/repeat.xml" value="0.15709090364314326" />
+        <entry key="..\:/Projects/learn_german/app/src/main/res/layout/select_day.xml" value="0.13090908636928605" />
         <entry key="..\:/Projects/learn_german/app/src/main/res/layout/select_lang.xml" value="0.2942708333333333" />
+        <entry key="..\:/Projects/learn_german/app/src/main/res/layout/start_level.xml" value="0.21818181061547676" />
         <entry key="..\:/Projects/learn_german/app/src/main/res/layout/universal.xml" value="0.2942708333333333" />
       </map>
     </option>

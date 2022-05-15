@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/background"
@@ -17,15 +15,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:layout_marginTop="5dp"
+        android:orientation="vertical"
         android:weightSum="100">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="7"
             android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp">
+            android:layout_marginEnd="10dp"
+            android:layout_weight="7">
+
             <Button
                 android:id="@+id/btn_back"
                 android:layout_width="0dp"
@@ -35,526 +35,618 @@
                 app:backgroundTint="@null"
                 app:layout_constraintDimensionRatio="H,16:11"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <LinearLayout
-            android:layout_weight="93"
             android:id="@+id/days"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
-            android:gravity="center"
             android:layout_gravity="center"
+            android:layout_weight="93"
+            android:gravity="center"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/text_select_day"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:textColor="@color/white"
-                android:textSize="25sp"
                 android:gravity="center"
-                android:text="@string/selectDay" />
+                android:text="@string/selectDay"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
             <LinearLayout
                 android:id="@+id/line1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/day1"
-                    android:onClick="selectDay1"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_actual"
-                    android:text="1" />
+                    android:gravity="center"
+                    android:onClick="selectDay1"
+                    android:text="1"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day2"
-                    android:onClick="selectDay2"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="2" />
+                    android:gravity="center"
+                    android:onClick="selectDay2"
+                    android:text="2"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day3"
-                    android:onClick="selectDay3"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="3" />
+                    android:gravity="center"
+                    android:onClick="selectDay3"
+                    android:text="3"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day4"
-                    android:onClick="selectDay4"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="4" />
+                    android:gravity="center"
+                    android:onClick="selectDay4"
+                    android:text="4"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day5"
-                    android:onClick="selectDay5"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="5" />
+                    android:gravity="center"
+                    android:onClick="selectDay5"
+                    android:text="5"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/line2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/day6"
-                    android:onClick="selectDay6"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="6" />
+                    android:gravity="center"
+                    android:onClick="selectDay6"
+                    android:text="6"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day7"
-                    android:onClick="selectDay7"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="7" />
+                    android:gravity="center"
+                    android:onClick="selectDay7"
+                    android:text="7"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day8"
-                    android:onClick="selectDay8"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="8" />
+                    android:gravity="center"
+                    android:onClick="selectDay8"
+                    android:text="8"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day9"
-                    android:onClick="selectDay9"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="9" />
+                    android:gravity="center"
+                    android:onClick="selectDay9"
+                    android:text="9"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day10"
-                    android:onClick="selectDay10"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="10" />
+                    android:gravity="center"
+                    android:onClick="selectDay10"
+                    android:text="10"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/line3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/day11"
-                    android:onClick="selectDay11"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="11" />
+                    android:gravity="center"
+                    android:onClick="selectDay11"
+                    android:text="11"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day12"
-                    android:onClick="selectDay12"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="12" />
+                    android:gravity="center"
+                    android:onClick="selectDay12"
+                    android:text="12"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day13"
-                    android:onClick="selectDay13"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="13" />
+                    android:gravity="center"
+                    android:onClick="selectDay13"
+                    android:text="13"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day14"
-                    android:onClick="selectDay14"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="14" />
+                    android:gravity="center"
+                    android:onClick="selectDay14"
+                    android:text="14"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day15"
-                    android:onClick="selectDay15"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="15" />
+                    android:gravity="center"
+                    android:onClick="selectDay15"
+                    android:text="15"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/line4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/day16"
-                    android:onClick="selectDay16"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="16" />
+                    android:gravity="center"
+                    android:onClick="selectDay16"
+                    android:text="16"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day17"
-                    android:onClick="selectDay17"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="17" />
+                    android:gravity="center"
+                    android:onClick="selectDay17"
+                    android:text="17"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day18"
-                    android:onClick="selectDay18"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="18" />
+                    android:gravity="center"
+                    android:onClick="selectDay18"
+                    android:text="18"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day19"
-                    android:onClick="selectDay19"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="19" />
+                    android:gravity="center"
+                    android:onClick="selectDay19"
+                    android:text="19"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day20"
-                    android:onClick="selectDay20"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="20" />
+                    android:gravity="center"
+                    android:onClick="selectDay20"
+                    android:text="20"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/line5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/day21"
-                    android:onClick="selectDay21"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="21" />
+                    android:gravity="center"
+                    android:onClick="selectDay21"
+                    android:text="21"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day22"
-                    android:onClick="selectDay22"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="22" />
+                    android:gravity="center"
+                    android:onClick="selectDay22"
+                    android:text="22"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day23"
-                    android:onClick="selectDay23"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="23" />
+                    android:gravity="center"
+                    android:onClick="selectDay23"
+                    android:text="23"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day24"
-                    android:onClick="selectDay24"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="24" />
+                    android:gravity="center"
+                    android:onClick="selectDay24"
+                    android:text="24"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day25"
-                    android:onClick="selectDay25"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="25" />
+                    android:gravity="center"
+                    android:onClick="selectDay25"
+                    android:text="25"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/line6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/day26"
-                    android:onClick="selectDay26"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="26" />
+                    android:gravity="center"
+                    android:onClick="selectDay26"
+                    android:text="26"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day27"
-                    android:onClick="selectDay27"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="27" />
+                    android:gravity="center"
+                    android:onClick="selectDay27"
+                    android:text="27"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day28"
-                    android:onClick="selectDay28"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="28" />
+                    android:gravity="center"
+                    android:onClick="selectDay28"
+                    android:text="28"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day29"
-                    android:onClick="selectDay29"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="29" />
+                    android:gravity="center"
+                    android:onClick="selectDay29"
+                    android:text="29"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/day30"
-                    android:onClick="selectDay30"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="30" />
+                    android:gravity="center"
+                    android:onClick="selectDay30"
+                    android:text="30"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
             </LinearLayout>
+
             <LinearLayout
-                android:gravity="center"
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
                 <TextView
-                    android:visibility="invisible"
                     android:id="@+id/gone"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
+                    android:background="@drawable/style_btn_select_not_passed"
                     android:gravity="center"
                     android:textColor="@color/white_violet"
-                    android:background="@drawable/style_btn_select_not_passed"/>
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:visibility="invisible" />
+
                 <TextView
-                    android:visibility="invisible"
                     android:id="@+id/gone2"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
+                    android:background="@drawable/style_btn_select_not_passed"
                     android:gravity="center"
                     android:textColor="@color/white_violet"
-                    android:background="@drawable/style_btn_select_not_passed"/>
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:visibility="invisible" />
+
                 <TextView
-                    android:visibility="invisible"
                     android:id="@+id/gone3"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
+                    android:background="@drawable/style_btn_select_not_passed"
                     android:gravity="center"
                     android:textColor="@color/white_violet"
-                    android:background="@drawable/style_btn_select_not_passed"/>
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:visibility="invisible" />
+
                 <TextView
-                    android:visibility="invisible"
                     android:id="@+id/gone4"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
+                    android:background="@drawable/style_btn_select_not_passed"
                     android:gravity="center"
                     android:textColor="@color/white_violet"
-                    android:background="@drawable/style_btn_select_not_passed"/>
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:visibility="invisible" />
+
                 <TextView
                     android:id="@+id/end"
-                    android:onClick="selectDayEnd"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="40sp"
-                    android:gravity="center"
-                    android:textColor="@color/white_violet"
                     android:background="@drawable/style_btn_select_not_passed"
-                    android:text="…" />
+                    android:gravity="center"
+                    android:onClick="selectDayEnd"
+                    android:text="…"
+                    android:textColor="@color/white_violet"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/adContainer"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignBottom="@id/background"
+        android:layout_margin="6dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="6dp">
 
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <ImageView
+                android:id="@+id/btnCloseAd"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_margin="6dp"
+                android:contentDescription="@null"
+                android:src="@drawable/dialog_close"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
+            <TextView
+                android:id="@+id/newApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/newApp"
+                android:textColor="@color/red_01"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/imgCardView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/newApp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/icon_app_german_books" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/germanBooks_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/germanBooks_name"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/imgCardView"
+                app:layout_constraintTop_toTopOf="@id/imgCardView" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/germanBooks_name"
+                app:layout_constraintStart_toStartOf="@id/germanBooks_name"
+                android:text="@string/germanBooks_description"
+                android:textColor="@color/gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:text="@string/install"
+                android:textColor="@color/green_03"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textStyle="bold"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
 
 
 </RelativeLayout>

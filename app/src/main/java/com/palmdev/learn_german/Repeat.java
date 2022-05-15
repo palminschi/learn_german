@@ -11,6 +11,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -25,6 +26,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
@@ -156,7 +158,7 @@ public class Repeat extends AppCompatActivity {
         init();
 
         //ADS
-        boolean showAds = save.getBoolean(getString(R.string.show_ads),true);
+        boolean showAds = save.getBoolean(getString(R.string.show_ads), true);
         if (showAds) {
             LinearLayout container_ads = findViewById(R.id.container_ads);
             container_ads.setVisibility(View.VISIBLE);
@@ -169,6 +171,7 @@ public class Repeat extends AppCompatActivity {
             loadInterstitialAd();
         }
 
+        initNewAppAd();
     }
 
     public void loadInterstitialAd() {
@@ -190,6 +193,7 @@ public class Repeat extends AppCompatActivity {
                                         startActivity(intent);
                                         finish();
                                     }
+
                                     @Override
                                     public void onAdFailedToShowFullScreenContent(AdError adError) {
                                         Repeat.this.interstitialAd = null;
@@ -270,7 +274,7 @@ public class Repeat extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             //
         }
     }
@@ -285,7 +289,7 @@ public class Repeat extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             //
         }
     }
@@ -428,7 +432,7 @@ public class Repeat extends AppCompatActivity {
                         startActivity(intent);
                         finish();
                     }
-                }catch (Exception e){
+                } catch (Exception e) {
                     //
                 }
             }
@@ -444,7 +448,7 @@ public class Repeat extends AppCompatActivity {
                     startActivity(intent);
                     finish();
                 }
-            }catch (Exception e){
+            } catch (Exception e) {
                 //
             }
         });
@@ -469,7 +473,6 @@ public class Repeat extends AppCompatActivity {
     }
 
 
-
     public void closeKeyBoard(View view) {
         InputMethodManager imm = (InputMethodManager) this.getSystemService(Activity.INPUT_METHOD_SERVICE);
         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
@@ -477,7 +480,7 @@ public class Repeat extends AppCompatActivity {
     }
 
     // GAME CONTENT
-    private void init () {
+    private void init() {
         editText.setBackgroundResource(R.drawable.style_edittext_black);
 
         switch (currentLevel) {
@@ -486,20 +489,22 @@ public class Repeat extends AppCompatActivity {
                 break;
 
             case 2:
-                if (count > 5)
-                    { getContentLevel(1); }
-                else
-                    { getContentLevel(2); }
+                if (count > 5) {
+                    getContentLevel(1);
+                } else {
+                    getContentLevel(2);
+                }
                 break;
 
             case 3:
 
-                if (count < 3)
-                    { getContentLevel(3); }
-                else if (count < 6 & count > 3)
-                    { getContentLevel(1); }
-                else
-                    { getContentLevel(2); }
+                if (count < 3) {
+                    getContentLevel(3);
+                } else if (count < 6 & count > 3) {
+                    getContentLevel(1);
+                } else {
+                    getContentLevel(2);
+                }
                 break;
 
             case 4:
@@ -787,7 +792,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -806,7 +811,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -817,7 +822,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 3) {
+        } else if (arrayNum == 3) {
             Array_lvl_3 array = new Array_lvl_3();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -825,7 +830,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -836,7 +841,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 4) {
+        } else if (arrayNum == 4) {
             Array_lvl_4 array = new Array_lvl_4();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -844,7 +849,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -855,7 +860,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 5) {
+        } else if (arrayNum == 5) {
             Array_lvl_5 array = new Array_lvl_5();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -863,7 +868,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -874,7 +879,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 6) {
+        } else if (arrayNum == 6) {
             Array_lvl_6 array = new Array_lvl_6();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -882,7 +887,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -893,7 +898,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 7) {
+        } else if (arrayNum == 7) {
             Array_lvl_7 array = new Array_lvl_7();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -901,7 +906,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -912,7 +917,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 8) {
+        } else if (arrayNum == 8) {
             Array_lvl_8 array = new Array_lvl_8();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -920,7 +925,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -931,7 +936,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 9) {
+        } else if (arrayNum == 9) {
             Array_lvl_9 array = new Array_lvl_9();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -939,7 +944,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -950,7 +955,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 10) {
+        } else if (arrayNum == 10) {
             Array_lvl_10 array = new Array_lvl_10();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -958,7 +963,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -969,7 +974,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 11) {
+        } else if (arrayNum == 11) {
             Array_lvl_11 array = new Array_lvl_11();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -977,7 +982,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -988,7 +993,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 12) {
+        } else if (arrayNum == 12) {
             Array_lvl_12 array = new Array_lvl_12();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -996,7 +1001,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1007,7 +1012,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 13) {
+        } else if (arrayNum == 13) {
             Array_lvl_13 array = new Array_lvl_13();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1015,7 +1020,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1026,7 +1031,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 14) {
+        } else if (arrayNum == 14) {
             Array_lvl_14 array = new Array_lvl_14();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1034,7 +1039,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1045,8 +1050,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }
-        else if (arrayNum == 15) {
+        } else if (arrayNum == 15) {
             Array_lvl_15 array = new Array_lvl_15();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1054,7 +1058,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1065,7 +1069,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 16) {
+        } else if (arrayNum == 16) {
             Array_lvl_16 array = new Array_lvl_16();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1073,7 +1077,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1084,7 +1088,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 17) {
+        } else if (arrayNum == 17) {
             Array_lvl_17 array = new Array_lvl_17();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1092,7 +1096,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1103,7 +1107,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 18) {
+        } else if (arrayNum == 18) {
             Array_lvl_18 array = new Array_lvl_18();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1111,7 +1115,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1122,7 +1126,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 19) {
+        } else if (arrayNum == 19) {
             Array_lvl_19 array = new Array_lvl_19();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1130,7 +1134,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1141,7 +1145,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 20) {
+        } else if (arrayNum == 20) {
             Array_lvl_20 array = new Array_lvl_20();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1149,7 +1153,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1160,8 +1164,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }
-        else if (arrayNum == 21) {
+        } else if (arrayNum == 21) {
             Array_lvl_21 array = new Array_lvl_21();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1169,7 +1172,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1180,7 +1183,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 22) {
+        } else if (arrayNum == 22) {
             Array_lvl_22 array = new Array_lvl_22();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1188,7 +1191,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1199,7 +1202,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 23) {
+        } else if (arrayNum == 23) {
             Array_lvl_23 array = new Array_lvl_23();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1207,7 +1210,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1218,7 +1221,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 24) {
+        } else if (arrayNum == 24) {
             Array_lvl_24 array = new Array_lvl_24();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1226,7 +1229,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1237,7 +1240,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 25) {
+        } else if (arrayNum == 25) {
             Array_lvl_25 array = new Array_lvl_25();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1245,7 +1248,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1256,7 +1259,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 26) {
+        } else if (arrayNum == 26) {
             Array_lvl_26 array = new Array_lvl_26();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1264,7 +1267,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1275,7 +1278,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 27) {
+        } else if (arrayNum == 27) {
             Array_lvl_27 array = new Array_lvl_27();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1283,7 +1286,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1294,7 +1297,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 28) {
+        } else if (arrayNum == 28) {
             Array_lvl_28 array = new Array_lvl_28();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1302,7 +1305,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1313,7 +1316,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 29) {
+        } else if (arrayNum == 29) {
             Array_lvl_29 array = new Array_lvl_29();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1321,7 +1324,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1332,7 +1335,7 @@ public class Repeat extends AppCompatActivity {
                 TextView tv = findViewById(letters[i]);
                 tv.setText(String.valueOf(lettersArray0[i]));
             }
-        }else if (arrayNum == 30) {
+        } else if (arrayNum == 30) {
             Array_lvl_30 array = new Array_lvl_30();
             Drawable img_asset = AssetsUtil.loadDrawable(getAssets(), array.word_img[rNums[count]]);
             img.setImageDrawable(img_asset);
@@ -1340,7 +1343,7 @@ public class Repeat extends AppCompatActivity {
             word.setText(array.word_title[rNums[count]]);
             phrase.setText(array.phrase[rNums[count]]);
             phraseTranslate.setText(array.phrase_translate[rNums[count]]);
-            mPlayer = MediaPlayer.create(this,array.sounds[rNums[count]]);
+            mPlayer = MediaPlayer.create(this, array.sounds[rNums[count]]);
 
             char[] lettersArray0 = word.getText().toString().toCharArray();
             hideLetters(word, lettersArray0);
@@ -1354,7 +1357,34 @@ public class Repeat extends AppCompatActivity {
         }
     }
 
+    // New app ad
+    private void initNewAppAd() {
+        final String AD_WAS_CLOSED_ACT_1 = "AD_WAS_CLOSED_ACT_1";
+        boolean adWasClosed = save.getBoolean(AD_WAS_CLOSED_ACT_1, false);
 
+        ImageView btnClose = findViewById(R.id.btnCloseAd);
+        CardView adContainer = findViewById(R.id.adContainer);
+
+        if (adWasClosed) {
+            adContainer.setVisibility(View.GONE);
+        } else {
+            adContainer.setVisibility(View.VISIBLE);
+
+            btnClose.setOnClickListener(v -> {
+                adContainer.setVisibility(View.GONE);
+                editor.putBoolean(AD_WAS_CLOSED_ACT_1, true);
+                editor.apply();
+            });
+
+            adContainer.setOnClickListener( v -> {
+                try {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.palmdev.german_books")));
+                } catch (android.content.ActivityNotFoundException anfe) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.palmdev.german_books")));
+                }
+            });
+        }
+    }
 
 }
 

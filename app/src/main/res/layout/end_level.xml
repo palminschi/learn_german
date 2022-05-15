@@ -2,15 +2,18 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <ImageView
         android:id="@+id/imageView"
-        android:onClick="closeKeyBoard"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:onClick="closeKeyBoard"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/background"/>
+        app:srcCompat="@drawable/background"
+        tools:ignore="SpeakableTextPresentCheck" />
     <LinearLayout
         android:weightSum="100"
         android:layout_marginTop="5dp"
@@ -28,6 +31,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent">
+
                 <Button
                     android:id="@+id/btn_back"
                     android:layout_width="0dp"
@@ -37,7 +41,8 @@
                     app:backgroundTint="@null"
                     app:layout_constraintDimensionRatio="H,16:11"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
         <LinearLayout
@@ -279,21 +284,23 @@
                 app:layout_constraintTop_toBottomOf="@id/editText4"
                 app:layout_constraintVertical_bias="0.0" />
         </LinearLayout>
+
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
-            android:layout_weight="5"
             android:layout_gravity="center"
+            android:layout_weight="5"
             android:background="@color/transparent"
             android:onClick="onClickBtnNext"
             android:text="@string/skip"
-            android:textSize="16sp"
             android:textAllCaps="false"
             android:textColor="@color/white95"
+            android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@id/btn_next"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="TouchTargetSizeCheck" />
         <Button
             android:id="@+id/btn_next"
             android:onClick="onClickBtnNext"
@@ -317,6 +324,5 @@
             android:layout_height="0dp"
             android:layout_weight="1"/>
     </LinearLayout>
-
 
 </RelativeLayout>

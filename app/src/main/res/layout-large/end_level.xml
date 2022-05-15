@@ -2,15 +2,18 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <ImageView
         android:id="@+id/imageView"
-        android:onClick="closeKeyBoard"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:onClick="closeKeyBoard"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/background"/>
+        app:srcCompat="@drawable/background"
+        tools:ignore="SpeakableTextPresentCheck" />
     <LinearLayout
         android:weightSum="100"
         android:layout_marginTop="5dp"
@@ -28,6 +31,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent">
+
                 <Button
                     android:id="@+id/btn_back"
                     android:layout_width="0dp"
@@ -37,7 +41,8 @@
                     app:backgroundTint="@null"
                     app:layout_constraintDimensionRatio="H,16:11"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="SpeakableTextPresentCheck" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
         <LinearLayout
@@ -323,6 +328,5 @@
             android:layout_height="0dp"
             android:layout_weight="1"/>
     </LinearLayout>
-
 
 </RelativeLayout>

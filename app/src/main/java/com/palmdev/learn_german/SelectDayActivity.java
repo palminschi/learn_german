@@ -7,10 +7,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import com.palmdev.learn_german.Levels_Start.Level10_Start;
 import com.palmdev.learn_german.Levels_Start.Level11_Start;
@@ -78,6 +80,8 @@ public class SelectDayActivity extends AppCompatActivity {
                 // -
             }
         });
+
+        initNewAppAd();
         
     }
 
@@ -518,6 +522,38 @@ public class SelectDayActivity extends AppCompatActivity {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://developer?id=DevPalm")));
         } catch (android.content.ActivityNotFoundException anfe) {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/developer?id=DevPalm")));
+        }
+    }
+
+    // New app ad
+    private void initNewAppAd() {
+        SharedPreferences save = getSharedPreferences("Save", MODE_PRIVATE);
+        SharedPreferences.Editor editor = save.edit();
+
+        final String AD_WAS_CLOSED_ACT_2 = "AD_WAS_CLOSED_ACT_2";
+        boolean adWasClosed = save.getBoolean(AD_WAS_CLOSED_ACT_2, false);
+
+        ImageView btnClose = findViewById(R.id.btnCloseAd);
+        CardView adContainer = findViewById(R.id.adContainer);
+
+        if (adWasClosed) {
+            adContainer.setVisibility(View.GONE);
+        } else {
+            adContainer.setVisibility(View.VISIBLE);
+
+            btnClose.setOnClickListener(v -> {
+                adContainer.setVisibility(View.GONE);
+                editor.putBoolean(AD_WAS_CLOSED_ACT_2, true);
+                editor.apply();
+            });
+
+            adContainer.setOnClickListener( v -> {
+                try {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.palmdev.german_books")));
+                } catch (android.content.ActivityNotFoundException anfe) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.palmdev.german_books")));
+                }
+            });
         }
     }
 }

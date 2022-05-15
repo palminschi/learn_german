@@ -21,7 +21,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="7"
+            android:layout_weight="5"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp">
             <Button
@@ -69,24 +69,24 @@
                         android:id="@+id/word_1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_1"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
 
                 </LinearLayout>
 
@@ -104,24 +104,24 @@
                         android:id="@+id/word_2"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_2"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_2"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -136,24 +136,24 @@
                         android:id="@+id/word_3"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_3"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_3"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_4"
@@ -169,24 +169,24 @@
                         android:id="@+id/word_4"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_4"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_4"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -202,24 +202,24 @@
                         android:id="@+id/word_5"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_5"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_5"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_6"
@@ -234,24 +234,24 @@
                         android:id="@+id/word_6"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_6"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_6"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -267,24 +267,24 @@
                         android:id="@+id/word_7"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_7"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_7"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_8"
@@ -300,24 +300,24 @@
                         android:id="@+id/word_8"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_8"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_8"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_9"
@@ -332,24 +332,24 @@
                         android:id="@+id/word_9"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_9"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_9"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_10"
@@ -365,24 +365,24 @@
                         android:id="@+id/word_10"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_10"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_10"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_11"
@@ -398,24 +398,24 @@
                         android:id="@+id/word_11"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_11"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_11"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_12"
@@ -432,24 +432,24 @@
                         android:id="@+id/word_12"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_12"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_12"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_13"
@@ -465,24 +465,24 @@
                         android:id="@+id/word_13"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_13"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_13"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_14"
@@ -499,24 +499,24 @@
                         android:id="@+id/word_14"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_14"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_14"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_15"
@@ -532,24 +532,24 @@
                         android:id="@+id/word_15"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_15"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_15"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_16"
@@ -566,24 +566,24 @@
                         android:id="@+id/word_16"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_16"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_16"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_17"
@@ -599,24 +599,24 @@
                         android:id="@+id/word_17"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_17"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_17"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_18"
@@ -633,24 +633,24 @@
                         android:id="@+id/word_18"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_18"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_18"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_19"
@@ -666,24 +666,24 @@
                         android:id="@+id/word_19"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_19"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_19"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/container_20"
@@ -703,24 +703,24 @@
                         android:id="@+id/word_20"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_title_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                     <ImageView
                         android:id="@+id/arrow_20"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
-                        android:layout_weight="33"
+                        android:layout_weight="14"
                         android:src="@drawable/arrow" />
                     <TextView
                         android:id="@+id/word_translate_20"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="33"
+                        android:layout_weight="43"
                         android:gravity="center"
                         android:text="@string/word_translate_1"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
             </LinearLayout>

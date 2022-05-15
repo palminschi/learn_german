@@ -86,4 +86,9 @@
     <string name="lang_PL" translatable="false">Polski</string>
     <string name="lang_ES" translatable="false">Español</string>
     <!-- Lang -->
+
+    <string name="newApp">Our new app!</string>
+    <string name="germanBooks_name">German Books</string>
+    <string name="germanBooks_description">- Read books for any level\n- Translate and save words</string>
+    <string name="install">Install</string>
 </resources>

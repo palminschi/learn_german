@@ -20,6 +20,8 @@
     <color name="white95">#95FFFFFF</color>
     <color name="white99">#99FFFFFF</color>
 
+    <color name="gray">#393939</color>
+
     <color name="green_01">#41C646</color>
     <color name="green_02">#29EF30</color>
     <color name="green_03">#32BA64</color>

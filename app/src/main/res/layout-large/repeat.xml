@@ -2,6 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:onClick="closeKeyBoard"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -718,5 +719,89 @@
 
         </LinearLayout>
     </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/adContainer"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignBottom="@id/background"
+        android:layout_margin="12dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="6dp"
+        tools:ignore="TooManyViews">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btnCloseAd"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_margin="6dp"
+                android:contentDescription="@null"
+                android:src="@drawable/dialog_close"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/newApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/newApp"
+                android:textColor="@color/red_01"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/imgCardView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/newApp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/icon_app_german_books" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/germanBooks_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/germanBooks_name"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/imgCardView"
+                app:layout_constraintTop_toTopOf="@id/imgCardView" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/germanBooks_name"
+                app:layout_constraintStart_toStartOf="@id/germanBooks_name"
+                android:text="@string/germanBooks_description"
+                android:textColor="@color/gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:text="@string/install"
+                android:textColor="@color/green_03"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textStyle="bold"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
